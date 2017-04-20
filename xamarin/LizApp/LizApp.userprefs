@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{AA24AEDB-DD52-404A-A16F-5043F9CD6CC2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LizApp/Test.cs">
+    <Files>
+      <File FileName="LizApp/ISQLite.cs" Line="2" Column="1" />
+      <File FileName="LizApp/Test.cs" Line="12" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/TRapPickerModel.cs" line="57" column="27" />
+      <Breakpoint file="/Users/pankajsingh/education/AppProject/xamarin/LizApp/LizApp/Test.cs" line="12" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LizApp.Droid PreferredExecutionTarget="Android.Nexus5" />
+  <MonoDevelop.Ide.ItemProperties.LizApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5A9F1EB1-D08C-4744-8F8F-23318A32F1E6" />
+</Properties>

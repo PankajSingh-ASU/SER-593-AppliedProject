@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{9D26E96A-0A5B-463F-8B03-60090E82FE70}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/InputTypeBuilder.cs">
+    <Files>
+      <File FileName="DynamicInputs/Data/SampleModel.cs" Line="1" Column="1" />
+      <File FileName="DynamicInputs/Models/MetaDataTable.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="iOS/ViewController.cs" Line="38" Column="8" />
+      <File FileName="iOS/InputType.cs" Line="59" Column="38" />
+      <File FileName="iOS/InputTypeBuilder.cs" Line="45" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DynamicInputs.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.ABE33CB7-14A2-4839-BE1F-ECDCB2D98B14" />
+</Properties>

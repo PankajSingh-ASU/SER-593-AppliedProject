@@ -1,0 +1,13 @@
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/bin/iPhoneSimulator/Debug/LizApp.iOS.exe.mdb
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/bin/iPhoneSimulator/Debug/LizApp.iOS.exe
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/obj/iPhoneSimulator/Debug/LizApp.iOS.exe
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/obj/iPhoneSimulator/Debug/LizApp.iOS.exe.mdb
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/bin/iPhoneSimulator/Debug/LizApp.dll
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/bin/iPhoneSimulator/Debug/LizApp.dll.mdb
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.Abstractions.dll
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/iOS/bin/iPhoneSimulator/Debug/Plugin.Geolocator.dll

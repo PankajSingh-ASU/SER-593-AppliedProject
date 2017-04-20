@@ -1,0 +1,10 @@
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/DynamicInputs/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/DynamicInputs/bin/Debug/SQLite.Net.dll
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/DynamicInputs/bin/Debug/DynamicInputs.dll.mdb
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/DynamicInputs/bin/Debug/DynamicInputs.dll
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/DynamicInputs/obj/Debug/DynamicInputs.dll
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/DynamicInputs/obj/Debug/DynamicInputs.dll.mdb
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/DynamicInputs/bin/Debug/SQLitePCLRaw.core.dll
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/DynamicInputs/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/DynamicInputs/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/DynamicInputs/bin/Debug/SQLite-net.dll

@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{36C3BE59-6CA7-4446-B501-FFCC0DCCC6D1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SQliteTest/TableInfo.cs">
+    <Files>
+      <File FileName="Droid/Resources/JsonDBAdapter.java" Line="13" Column="57" />
+      <File FileName="Droid/DynamicUICreator.cs" Line="8" Column="31" />
+      <File FileName="SQliteTest/MasterTableInfo.cs" Line="1" Column="1" />
+      <File FileName="SQliteTest/TableInfo.cs" Line="1" Column="1" />
+      <File FileName="Droid/InputTypeBuilder.cs" Line="76" Column="34" />
+      <File FileName="Droid/DynamicDatePicker.cs" Line="30" Column="4" />
+      <File FileName="Droid/InputStore.cs" Line="13" Column="48" />
+      <File FileName="Droid/OutputStore.cs" Line="1" Column="1" />
+      <File FileName="SQliteTest/DatabaseAccess.cs" Line="10" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/SQliteTest/DatabaseAccess.cs" line="87" column="27" />
+      <Breakpoint file="/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/Droid/InputStore.cs" line="22" column="1" />
+      <Breakpoint file="/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/Droid/InputStore.cs" line="41" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SQliteTest.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FDF51F7B-E55A-4607-8A85-EBF0253AE150" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SQliteTest.Droid AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Nexus_6_API_25" />
+</Properties>

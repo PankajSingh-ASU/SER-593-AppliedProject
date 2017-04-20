@@ -1,0 +1,14 @@
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/bin/iPhoneSimulator/Debug/DynamicInputs.iOS.exe.mdb
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/bin/iPhoneSimulator/Debug/DynamicInputs.iOS.exe
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/obj/iPhoneSimulator/Debug/DynamicInputs.iOS.exe
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/obj/iPhoneSimulator/Debug/DynamicInputs.iOS.exe.mdb
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/bin/iPhoneSimulator/Debug/DynamicInputs.dll
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/bin/iPhoneSimulator/Debug/DynamicInputs.dll.mdb
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/pankajsingh/education/AppProject/xamarin/DynamicInputs/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll

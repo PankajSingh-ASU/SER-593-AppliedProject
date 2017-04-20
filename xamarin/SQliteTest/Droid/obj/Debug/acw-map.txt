@@ -1,0 +1,8 @@
+SQliteTest.Droid.MainActivity, SQliteTest.Droid;md5cfc35ff8e775243add6957435dfa324c.MainActivity
+SQliteTest.Droid.MainActivity, SQliteTest.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5cfc35ff8e775243add6957435dfa324c.MainActivity
+SQliteTest.Droid.MainActivity;md5cfc35ff8e775243add6957435dfa324c.MainActivity
+sqlitetest.droid.MainActivity;md5cfc35ff8e775243add6957435dfa324c.MainActivity
+SQliteTest.SQLiteUtil, SQliteTest.Droid;md5efdcce045942b5984b5a489eca20f19f.SQLiteUtil
+SQliteTest.SQLiteUtil, SQliteTest.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5efdcce045942b5984b5a489eca20f19f.SQLiteUtil
+SQliteTest.SQLiteUtil;md5efdcce045942b5984b5a489eca20f19f.SQLiteUtil
+sqlitetest.SQLiteUtil;md5efdcce045942b5984b5a489eca20f19f.SQLiteUtil

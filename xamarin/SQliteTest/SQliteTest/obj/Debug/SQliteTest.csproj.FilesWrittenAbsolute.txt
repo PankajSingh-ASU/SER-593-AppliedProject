@@ -1,0 +1,16 @@
+/Users/pankajsingh/Projects/SQliteTest/SQliteTest/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/pankajsingh/Projects/SQliteTest/SQliteTest/obj/Debug/SQliteTest.test.db
+/Users/pankajsingh/Projects/SQliteTest/SQliteTest/bin/Debug/SQliteTest.dll.mdb
+/Users/pankajsingh/Projects/SQliteTest/SQliteTest/bin/Debug/SQliteTest.dll
+/Users/pankajsingh/Projects/SQliteTest/SQliteTest/obj/Debug/SQliteTest.dll
+/Users/pankajsingh/Projects/SQliteTest/SQliteTest/obj/Debug/SQliteTest.dll.mdb
+/Users/pankajsingh/Projects/SQliteTest/SQliteTest/bin/Debug/SQLite.Net.dll
+/Users/pankajsingh/Projects/SQliteTest/SQliteTest/bin/Debug/SQLite.Net.Async.dll
+/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/SQliteTest/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/SQliteTest/obj/Debug/SQliteTest.test.db
+/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/SQliteTest/bin/Debug/SQliteTest.dll.mdb
+/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/SQliteTest/bin/Debug/SQliteTest.dll
+/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/SQliteTest/obj/Debug/SQliteTest.dll
+/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/SQliteTest/obj/Debug/SQliteTest.dll.mdb
+/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/SQliteTest/bin/Debug/SQLite.Net.dll
+/Users/pankajsingh/education/AppProject/xamarin/SQliteTest/SQliteTest/bin/Debug/SQLite.Net.Async.dll

@@ -1,0 +1,10 @@
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/LizApp/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/LizApp/bin/Debug/LizApp.dll.mdb
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/LizApp/bin/Debug/LizApp.dll
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/LizApp/obj/Debug/LizApp.dll
+/Users/pankajsingh/education/AppProject/xamarin/LizApp/LizApp/obj/Debug/LizApp.dll.mdb
+/Users/pankajsingh/education/AppProject/xamarin/LizApp1.0/LizApp/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/pankajsingh/education/AppProject/xamarin/LizApp1.0/LizApp/bin/Debug/LizApp.dll.mdb
+/Users/pankajsingh/education/AppProject/xamarin/LizApp1.0/LizApp/bin/Debug/LizApp.dll
+/Users/pankajsingh/education/AppProject/xamarin/LizApp1.0/LizApp/obj/Debug/LizApp.dll
+/Users/pankajsingh/education/AppProject/xamarin/LizApp1.0/LizApp/obj/Debug/LizApp.dll.mdb

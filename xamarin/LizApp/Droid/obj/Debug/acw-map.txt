@@ -1,0 +1,4 @@
+LizApp.Droid.MainActivity, LizApp.Droid;md54f6b403145679b7f5c5b4f50bcade97b.MainActivity
+LizApp.Droid.MainActivity, LizApp.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md54f6b403145679b7f5c5b4f50bcade97b.MainActivity
+LizApp.Droid.MainActivity;md54f6b403145679b7f5c5b4f50bcade97b.MainActivity
+lizapp.droid.MainActivity;md54f6b403145679b7f5c5b4f50bcade97b.MainActivity
