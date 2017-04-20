@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView02"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"  >
+
+<TextView android:text="Species Code" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="5px"
+	android:id="@+id/mammalSpeciesCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<AutoCompleteTextView android:text="" 
+	android:id="@+id/mammalSpeciesCodeAutoCompleteTextView"
+	android:textStyle="bold"
+	android:textSize="18px" 
+	android:completionThreshold="1"
+	android:layout_below="@id/mammalSpeciesCodeLabel"
+	android:layout_width="120px" 
+	android:layout_height="wrap_content" 
+	android:maxLength="4" 
+	android:imeOptions="actionDone"
+	android:inputType="textCapCharacters">
+</AutoCompleteTextView>
+
+<Button android:text="Look up Code" 
+	android:id="@+id/mammalSpeciesButton" 
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@id/mammalSpeciesCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="Fence Trap" 
+	android:id="@+id/mammalFenceLabel"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px" 
+	android:layout_below="@id/mammalSpeciesCodeAutoCompleteTextView" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Spinner android:id="@+id/mammalFenceSpinner" 
+	android:layout_below="@id/mammalFenceLabel"
+	android:prompt="@string/selectOne"
+	android:entries="@array/fencearray" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<Button android:text="Fence Map" 
+	android:id="@+id/mammalMapButton" 
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@id/mammalFenceLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="Mass(g)" 
+	android:id="@+id/mammalMassLabel" 
+	android:layout_below="@id/mammalFenceSpinner" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="10px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="" 
+	android:layout_below="@id/mammalMassLabel" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content" 
+	android:textSize="18px" 	
+	android:textStyle="bold"
+	android:maxLength="5" 
+	android:inputType="phone"
+	android:imeOptions="actionDone"
+	android:id="@+id/mammalMassText">
+</EditText>
+
+
+<TextView android:text="Sex" 
+	android:id="@+id/mammalSexLabel" 
+	android:layout_below="@id/mammalMapButton" 
+	android:layout_marginLeft="20px"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="10px"
+	android:layout_alignParentRight="true"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<Spinner android:id="@+id/mammalSexSpinner" 
+	android:layout_below="@id/mammalSexLabel"
+	android:prompt="@string/selectOne"
+	android:entries="@array/sexarray" 
+	android:layout_alignParentRight="true"
+	android:layout_width="120px" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<TextView android:text="Dead?" 
+	android:id="@+id/mammalDeadLabel" 
+	android:layout_below="@id/mammalMassText"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<CheckBox android:id="@+id/mammalDeadCheckBox"
+	android:checked="false"
+	android:layout_marginTop="5px"
+	android:layout_marginRight="10px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/mammalSexSpinner"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+</CheckBox>
+
+<TextView android:text="Comments" 
+	android:id="@+id/mammalCommentsLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20px"
+	android:layout_below="@+id/mammalDeadLabel" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:imeOptions="actionDone"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="" 
+	android:id="@+id/mammalCommentsText" 
+	android:layout_below="@id/mammalCommentsLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="18px" 
+	android:textStyle="bold" 
+	android:inputType="text"
+	android:imeOptions="actionDone">
+</EditText>
+
+<Button android:text="Back" 
+	android:id="@+id/mammalBackButton" 
+	android:textSize="18px"
+	android:layout_marginTop="20px"
+    android:layout_below="@id/mammalCommentsText"
+	android:layout_width="100px" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Next" 
+	android:id="@+id/mammalVerifyButton"
+	android:textSize="18px"
+	android:layout_marginTop="20px" 
+	android:layout_toRightOf="@+id/mammalBackButton"
+    android:layout_below="@id/mammalCommentsText"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+</RelativeLayout>
+</ScrollView>

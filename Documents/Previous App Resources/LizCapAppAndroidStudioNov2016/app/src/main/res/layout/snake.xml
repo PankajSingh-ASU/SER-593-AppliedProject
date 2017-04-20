@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"  >
+
+<TextView android:text="Species Code" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="5px"
+	android:id="@+id/snakeSpeciesCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<AutoCompleteTextView android:text="" 
+	android:id="@+id/snakeSpeciesCodeAutoCompleteTextView"
+	android:textStyle="bold"
+	android:textSize="18px" 
+	android:completionThreshold="1"
+	android:layout_below="@id/snakeSpeciesCodeLabel"
+	android:layout_width="120px" 
+	android:layout_height="wrap_content" 
+	android:maxLength="4" 
+	android:imeOptions="actionDone"
+	android:inputType="textCapCharacters">
+</AutoCompleteTextView>
+
+<Button android:text="Look up Code" 
+	android:id="@+id/snakeSpeciesButton" 
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@id/snakeSpeciesCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="Fence Trap" 
+	android:id="@+id/snakeFenceLabel"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px" 
+	android:layout_below="@id/snakeSpeciesCodeAutoCompleteTextView" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Spinner android:id="@+id/snakeFenceSpinner" 
+	android:layout_below="@id/snakeFenceLabel"
+	android:prompt="@string/selectOne"
+	android:entries="@array/fencearray" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<Button android:text="Fence Map" 
+	android:id="@+id/snakeMapButton" 
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@id/snakeFenceLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="SVL(mm)" 
+	android:id="@+id/snakeSVLLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/snakeFenceSpinner" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="" 
+	android:id="@+id/snakeSVLText" 
+	android:layout_below="@id/snakeSVLLabel" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content" 
+	android:nextFocusDown="@+id/snakeVTLText"
+	android:textSize="18px"
+	android:gravity="center" 
+	android:maxLength="5"
+	android:textStyle="bold" 
+	android:inputType="phone" >
+</EditText>
+
+<TextView android:text="VTL(mm)" 
+	android:id="@+id/snakeVTLLabel" 
+	android:layout_below="@+id/snakeMapButton"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="10px"
+	android:layout_alignParentRight="true"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="" 
+	android:layout_below="@id/snakeVTLLabel" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true" 
+	android:gravity="center"
+	android:nextFocusDown="@+id/snakeMassText"
+	android:textSize="18px"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:inputType="phone" 
+	android:id="@+id/snakeVTLText" >
+</EditText>
+
+<TextView android:text="Mass(g)" 
+	android:id="@+id/snakeMassLabel" 
+	android:layout_below="@id/snakeSVLText" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="10px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="" 
+	android:layout_below="@id/snakeMassLabel" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content" 
+	android:textSize="18px" 
+	android:gravity="center"
+	android:textStyle="bold"
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone"
+	android:id="@+id/snakeMassText">
+</EditText>
+
+<TextView android:text="Sex" 
+	android:id="@+id/snakeSexLabel" 
+	android:layout_below="@id/snakeVTLText" 
+	android:layout_marginLeft="20px"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="10px"
+	android:layout_alignParentRight="true"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<Spinner android:id="@+id/snakeSexSpinner" 
+	android:layout_below="@id/snakeSexLabel"
+	android:prompt="@string/selectOne"
+	android:entries="@array/sexarray" 
+	android:layout_width="120px" 
+	android:layout_alignParentRight="true"
+	android:layout_height="wrap_content">
+</Spinner>
+
+<TextView android:text="Dead?" 
+	android:id="@+id/snakeDeadLabel" 
+	android:layout_below="@id/snakeMassText"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<CheckBox android:id="@+id/snakeDeadCheckBox"
+	android:checked="false"
+	android:layout_marginTop="5px"
+	android:layout_marginRight="10px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/snakeSexSpinner"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+</CheckBox>
+
+<TextView android:text="Comments" 
+	android:id="@+id/snakeCommentsLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20px"
+	android:layout_below="@+id/snakeDeadLabel" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="" 
+	android:id="@+id/snakeCommentsText" 
+	android:layout_below="@id/snakeCommentsLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="18px" 
+	android:textStyle="bold" 
+	android:inputType="text"
+	android:imeOptions="actionDone">
+</EditText>
+
+<Button android:text="Back" 
+	android:id="@+id/snakeBackButton" 
+	android:textSize="18px"
+	android:layout_marginTop="20px"
+    android:layout_below="@+id/snakeCommentsText"
+	android:layout_width="100px" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Next" 
+	android:id="@+id/snakeVerifyButton"
+	android:textSize="18px"
+	android:layout_marginTop="20px" 
+	android:layout_toRightOf="@+id/snakeBackButton"
+    android:layout_below="@+id/snakeCommentsText"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+</RelativeLayout>
+</ScrollView>

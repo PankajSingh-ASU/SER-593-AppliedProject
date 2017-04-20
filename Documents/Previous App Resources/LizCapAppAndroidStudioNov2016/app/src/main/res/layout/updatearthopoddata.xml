@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView02"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/arthropodSpeciesCodeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5px"
+            android:text="Species Code"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <AutoCompleteTextView
+            android:id="@+id/arthropodSpeciesCodeAutoCompleteTextView"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arthropodSpeciesCodeLabel"
+            android:completionThreshold="1"
+            android:imeOptions="actionDone"
+            android:inputType="textCapCharacters"
+            android:maxLength="4"
+            android:text=""
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </AutoCompleteTextView>
+
+        <Button
+            android:id="@+id/arthropodSpeciesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/arthropodSpeciesCodeLabel"
+            android:text="Look up Code"
+            android:textSize="18px" >
+        </Button>
+
+        <TextView
+            android:id="@+id/arthropodNumberLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arthropodSpeciesCodeAutoCompleteTextView"
+            android:layout_marginTop="10px"
+            android:text="Number"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/arthropodNumberText"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arthropodNumberLabel"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:maxLength="5"
+            android:text="0"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </EditText>
+
+        <Button
+            android:id="@+id/arthropodBackButton"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arthropodNumberText"
+            android:layout_marginTop="20px"
+            android:text="Back"
+            android:textSize="18px" >
+        </Button>
+
+        <Button
+            android:id="@+id/arthropodVerifyButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arthropodNumberText"
+            android:layout_marginTop="20px"
+            android:layout_toRightOf="@+id/arthropodBackButton"
+            android:text="Update"
+            android:textSize="18px" >
+        </Button>
+    </RelativeLayout>
+
+</ScrollView>

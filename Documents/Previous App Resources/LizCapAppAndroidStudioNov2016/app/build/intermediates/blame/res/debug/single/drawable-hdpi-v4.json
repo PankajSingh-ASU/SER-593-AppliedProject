@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/slider_back.xml",
+        "source": "/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/src/main/res/drawable-hdpi/slider_back.xml"
+    },
+    {
+        "merged": "/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/left_shadow.xml",
+        "source": "/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/src/main/res/drawable-hdpi/left_shadow.xml"
+    },
+    {
+        "merged": "/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/right_shadow.xml",
+        "source": "/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/src/main/res/drawable-hdpi/right_shadow.xml"
+    }
+]

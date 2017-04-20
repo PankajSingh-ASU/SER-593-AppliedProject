@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView02"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"  >
+
+
+<TextView android:text="Species Code" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="5px"
+	android:id="@+id/amphibianSpeciesCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<AutoCompleteTextView android:text="" 
+	android:id="@+id/amphibianSpeciesCodeAutoCompleteTextView"
+	android:textStyle="bold"
+	android:textSize="18px" 
+	android:completionThreshold="1"
+	android:layout_below="@id/amphibianSpeciesCodeLabel"
+	android:layout_width="120px" 
+	android:layout_height="wrap_content" 
+	android:maxLength="4" 
+	android:imeOptions="actionDone"
+	android:inputType="textCapCharacters">
+</AutoCompleteTextView>
+
+<Button android:text="Look up Code" 
+	android:id="@+id/amphibianSpeciesButton" 
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@id/amphibianSpeciesCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="Fence Trap" 
+	android:id="@+id/amphibianFenceLabel"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="15px"
+	android:layout_below="@id/amphibianSpeciesCodeAutoCompleteTextView" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Spinner android:id="@+id/amphibianFenceSpinner" 
+	android:layout_below="@id/amphibianFenceLabel"
+	android:prompt="@string/selectOne"
+	android:entries="@array/fencearray"
+	android:layout_width="120px" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<Button android:text="Fence Map" 
+	android:id="@+id/amphibianMapButton" 
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@id/amphibianFenceLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="HD-body" 
+	android:id="@+id/amphibianHDBodyLabel" 
+	android:layout_below="@+id/amphibianFenceSpinner"
+	android:layout_marginTop="10px"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="" 
+	android:layout_below="@id/amphibianHDBodyLabel" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content"	
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:nextFocusDown="@+id/amphibianMassText"
+	android:inputType="phone" 
+	android:id="@+id/amphibianHDBodyText" >
+</EditText>
+
+<TextView android:text="Mass(g)" 
+	android:id="@+id/amphibianMassLabel" 
+	android:layout_below="@id/amphibianFenceSpinner" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="10px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="" 
+	android:layout_below="@id/amphibianMassLabel" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content" 
+	android:textSize="18px" 
+	android:gravity="center"
+	android:textStyle="bold"
+	android:layout_alignParentRight="true"
+	android:maxLength="5" 
+	android:inputType="phone"
+	android:imeOptions="actionDone"
+	android:id="@+id/amphibianMassText">
+</EditText>
+
+
+<TextView android:text="Sex" 
+	android:id="@+id/amphibianSexLabel" 
+	android:layout_below="@id/amphibianHDBodyText" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<Spinner android:id="@+id/amphibianSexSpinner" 
+	android:layout_below="@id/amphibianSexLabel"
+	android:prompt="@string/selectOne"
+	android:entries="@array/sexarray" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<TextView android:text="Dead?" 
+	android:layout_toLeftOf="@+id/amphibianDeadCheckBox"
+	android:layout_below="@+id/amphibianSexLabel"
+	android:id="@+id/amphibianDeadLabel"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="20px" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<CheckBox android:id="@+id/amphibianDeadCheckBox"
+	android:checked="false"
+	android:layout_marginRight="10px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/amphibianSexLabel"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content">
+</CheckBox>
+
+<TextView android:text="Comments" 
+	android:id="@+id/amphibianCommentsLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20px"
+	android:layout_below="@+id/amphibianSexSpinner" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="" 
+	android:id="@+id/amphibianCommentsText" 
+	android:layout_below="@id/amphibianCommentsLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="18px" 
+	android:textStyle="bold" 
+	android:inputType="text"
+	android:imeOptions="actionDone">
+</EditText>
+
+<Button android:text="Back" 
+	android:id="@+id/amphibianBackButton" 
+	android:textSize="18px"
+	android:layout_marginTop="20px"
+	android:layout_below="@+id/amphibianCommentsText"
+	android:layout_width="100px" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Next" 
+	android:id="@+id/amphibianVerifyButton"
+	android:textSize="18px"
+	android:layout_marginTop="20px" 
+	android:layout_toRightOf="@+id/amphibianBackButton"
+    android:layout_below="@+id/amphibianCommentsText"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+</RelativeLayout>
+</ScrollView>

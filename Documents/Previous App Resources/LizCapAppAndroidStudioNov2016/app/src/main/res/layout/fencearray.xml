@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView02"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/traparray"  >
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceAFence"
+	android:textSize="22px"
+	android:text="A Fence" 
+	android:layout_x="0px"
+	android:layout_y="220px">
+</Button>
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceA4"
+	android:textSize="26px"
+	android:text="A4" 
+	android:layout_x="140px"
+	android:layout_y="5px">
+</Button>
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceA2"
+	android:textSize="26px"
+	android:text="A2" 
+	android:layout_x="90px"
+	android:layout_y="150px">
+</Button>
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceA3"
+	android:textSize="26px"
+	android:text="A3" 
+	android:layout_x="185px"
+	android:layout_y="150px">
+</Button>
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceA1"
+	android:textSize="26px"
+	android:text="A1" 
+	android:layout_x="170px"
+	android:layout_y="275px">
+</Button>
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceBFence"
+	android:textSize="22px"
+	android:text="B Fence" 
+	android:layout_x="215px"
+	android:layout_y="220px">
+</Button>
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceB2"
+	android:textSize="26px"
+	android:text="B2" 
+	android:layout_x="235px"
+	android:layout_y="330px">
+</Button>
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceB3"
+	android:textSize="26px"
+	android:text="B3" 
+	android:layout_x="170px"
+	android:layout_y="410px">
+</Button>
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceB4"
+	android:textSize="26px"
+	android:text="B4" 
+	android:layout_x="270px"
+	android:layout_y="470px">
+</Button>
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceCFence"
+	android:textSize="22px"
+	android:text="C Fence" 
+	android:layout_x="120px"
+	android:layout_y="475px">
+</Button>
+	
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceC2"
+	android:textSize="26px"
+	android:text="C2" 
+	android:layout_x="95px"
+	android:layout_y="420px">
+</Button>	
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceC3"
+	android:textSize="26px"
+	android:text="C3" 
+	android:layout_x="40px"
+	android:layout_y="335px">
+</Button>
+
+<Button android:textColor="#000000"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/fenceC4"
+	android:textSize="26px"
+	android:text="C4" 
+	android:layout_x="0px"
+	android:layout_y="465px">
+</Button>
+	
+</AbsoluteLayout>
+</ScrollView>

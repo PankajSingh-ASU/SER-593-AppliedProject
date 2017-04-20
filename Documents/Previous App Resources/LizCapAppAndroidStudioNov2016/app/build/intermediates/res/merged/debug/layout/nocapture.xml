@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"  >
+    
+
+
+<TextView android:text="Comments" 
+	android:id="@+id/nocaptureCommentLabel" 
+	android:layout_marginTop="20px" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="No Capture" 
+	android:layout_below="@id/nocaptureCommentLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="120px"
+	android:textSize="18px"
+	android:textStyle="bold" 
+	android:inputType="text"
+	android:id="@+id/nocaptureCommentText"
+	android:imeOptions="actionDone">
+</EditText>
+
+<TextView android:text="Trap Closed?" 
+	android:id="@+id/nocaptureTrapClosedLabel" 
+	android:layout_below="@+id/nocaptureCommentText"
+	android:layout_marginTop="40px" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	>
+</TextView>
+
+<CheckBox android:text="" 
+	android:id="@+id/nocaptureTrapClosedCheckBox" 
+	android:layout_below="@+id/nocaptureCommentText"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="30px"
+	android:layout_marginRight="10px"
+	android:layout_alignParentRight="true"
+	android:checked="false" >
+</CheckBox>
+
+<Button android:text="Back" 
+	android:id="@+id/nocaptureBackButton" 
+	android:textSize="14px"
+	android:layout_marginTop="20px"
+	android:layout_alignParentBottom="true"
+	android:layout_width="100px" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Edit" 
+	android:id="@+id/nocaptureEditButton" 
+	android:layout_alignParentBottom="true"
+	android:textSize="14px"
+	android:layout_width="90px" 
+	android:layout_toRightOf="@+id/nocaptureBackButton"
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Done" 
+	android:id="@+id/nocaptureVerifyButton"
+	android:textSize="14px"
+	android:layout_marginTop="20px" 
+	android:layout_toRightOf="@+id/nocaptureEditButton"
+	android:layout_alignParentBottom="true" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+</RelativeLayout>

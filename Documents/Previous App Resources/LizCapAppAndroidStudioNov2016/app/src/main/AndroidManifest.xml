@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="asu.edu"
+      android:versionCode="1"
+      android:versionName="2.0"
+      android:installLocation="auto">
+    <application 
+       android:name="LizardApplication" 
+       android:icon="@drawable/biologyicon"
+	   android:label="@string/app_name">
+	
+	<!-- Start of Crittercism.com Code -->
+<!--	<activity android:name="com.crittercism.FeedbackActivity" />
+	<activity android:name="com.crittercism.FeedbackCreateActivity" />
+	<activity android:name="com.crittercism.FeedbackDetailsActivity" />
+	<activity android:name="com.crittercism.NotificationActivity" />
+	<service android:name="com.crittercism.service.CrittercismService"
+		android:process="com.crittercism.service" android:exported="true">
+		<intent-filter>
+			<action android:name="com.crittercism.service.CrittercismService" />
+		</intent-filter>
+	</service>
+	-->
+	<uses-permission android:name="android.permission.READ_LOGS"/>
+	<!-- End of Crittercism.com Code -->
+	
+	<activity android:name=".activity.MainMenu"
+		android:screenOrientation="portrait" android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.AnimalHistory"
+        		  android:screenOrientation="unspecified"
+                  android:label="LizCapApp"
+                  android:theme="@android:style/Theme.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.Sync"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.Search"
+        		  android:screenOrientation="landscape"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.UserData"
+        		  android:screenOrientation="portrait"
+        		  android:windowSoftInputMode="stateVisible|adjustResize"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.SpeciesList"
+        		  android:screenOrientation="portrait"        	
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.FenceArray"
+        		  android:screenOrientation="portrait"        	
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.TrapArray"
+        		  android:screenOrientation="portrait"        	
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.ToeClipCode"
+        		  android:screenOrientation="portrait"        	
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.Amphibian"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>             
+
+		<activity android:name=".activity.Arthropod"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.AddArthropod"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name=".activity.ArthropodOld"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name=".activity.HerpDataPartOne"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.HerpDataPartTwo"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.HerpDataPartThree"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.Mammal"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.Snake"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.NoCapture"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+        <activity android:name=".activity.VerifyAmphibian"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.VerifyArthropod"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.VerifyHerp"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.VerifyMammal"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.VerifySnake"
+        		  android:screenOrientation="portrait"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".activity.RecaptureList"
+                  android:label="LizCapApp">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.TaxaSelection"></activity>
+        <activity android:name=".activity.LocationComments"></activity>
+        <activity android:name=".activity.EditArthropod"></activity>
+<!--        <activity android:name=".activity.AddArthropod"></activity>   -->
+        <activity android:name=".activity.CheckdatesHistory" android:theme="@android:style/Theme.Light" />
+        <activity android:name=".activity.AboutApplication" android:theme="@android:style/Theme.Light" />
+        
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+</manifest> 

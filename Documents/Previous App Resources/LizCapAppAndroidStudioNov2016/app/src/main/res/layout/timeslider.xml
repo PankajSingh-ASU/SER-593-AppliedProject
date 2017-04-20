@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asu.edu.SliderContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/asu.edu"
+    android:id="@+id/dateSliderContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <asu.edu.ScrollLayout
+        style="@style/Scroller"
+        app:labelerClass="asu.edu.labeler.HourLabeler"
+        app:labelerFormat="%tk"
+        app:childWidth="90dp"/>
+    <asu.edu.ScrollLayout
+        style="@style/Scroller"
+        app:labelerClass="asu.edu.labeler.MinuteLabeler"
+        app:labelerFormat="%tM"
+        app:childWidth="45dp"/>
+    <include layout="@layout/dialogbuttons"/>
+</asu.edu.SliderContainer>

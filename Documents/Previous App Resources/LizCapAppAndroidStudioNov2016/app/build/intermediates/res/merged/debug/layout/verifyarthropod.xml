@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+
+<TextView android:text="" 
+	android:id="@+id/vBarLabelTwo" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="5px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Trap:"  
+	android:id="@+id/verifyarthropodFenceLabel"
+	android:layout_below="@+id/vBarLabelTwo"
+	android:layout_marginTop="10px"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyarthropodFenceText"  
+	android:layout_marginTop="10px"
+	android:gravity="center"
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_below="@+id/vBarLabelTwo"
+	android:layout_alignParentRight="true"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/vBarLabelZero"  
+	android:layout_below="@+id/verifyarthropodFenceLabel"
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Order Code:"  
+	android:id="@+id/verifyarthropodSpeciesCodeLabel" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/vBarLabelZero"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyarthropodSpeciesCodeText"  
+	android:layout_alignParentRight="true"
+	android:layout_marginTop="10px"
+	android:gravity="center"
+	android:layout_width="80px"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/vBarLabelZero"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/vBarLabelEight" 
+	android:layout_below="@id/verifyarthropodSpeciesCodeLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Number:"  
+	android:id="@+id/verifyarthropodNumberLabel"
+	android:layout_below="@+id/vBarLabelEight"
+	android:layout_marginTop="10px"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyarthropodNumberText"  
+	android:layout_marginTop="10px"
+	android:gravity="center"
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/vBarLabelEight"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/vBarLabelSeven" 
+	android:layout_below="@id/verifyarthropodNumberLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Predator?:"  
+	android:id="@+id/verifyarthropodPredatorLabel"
+	android:layout_below="@+id/vBarLabelSeven"
+	android:layout_marginTop="10px"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyarthropodPredatorText"  
+	android:layout_marginTop="10px"
+	android:gravity="center"
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/vBarLabelSeven"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/vBarLabelNine" 
+	android:layout_below="@id/verifyarthropodPredatorLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Comments:"  
+	android:id="@+id/verifyarthropodNotesLabel"
+	android:layout_below="@+id/vBarLabelNine"
+	android:layout_marginTop="10px"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyarthropodNotesText"    
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:layout_below="@+id/verifyarthropodNotesLabel"
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/vBarLabelTen" 
+	android:layout_below="@id/verifyarthropodNotesText" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<Button android:text="Back" 
+	android:id="@+id/verifyarthropodBackButton" 
+	android:layout_alignParentBottom="true"
+	android:textSize="14px" 
+	android:layout_width="90px" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Done" 
+	android:id="@+id/verifyarthropodCorrectButton"
+	android:textSize="14px"
+	android:layout_alignParentBottom="true"
+	android:layout_toRightOf="@+id/verifyarthropodBackButton" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+</RelativeLayout>
+</ScrollView>

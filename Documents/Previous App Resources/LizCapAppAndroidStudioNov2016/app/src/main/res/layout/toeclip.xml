@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView02"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/toetoe"  >
+    
+<TextView android:text="Code:" 
+	android:id="@+id/toeclipLabel"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:textColor="@android:color/black" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="A1B1C1D1" 
+	android:id="@+id/toeclipinputText"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_toRightOf="@+id/toeclipLabel"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="10px" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" >
+</TextView>
+
+<TextView android:text="Not Used" 
+	android:id="@+id/toeclipCheckText"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="10px"
+	android:layout_alignParentRight="true" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="Suggestion:" 
+	android:id="@+id/toeclipSuggestion"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="10px"
+	android:layout_below="@+id/toeclipLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="Enter Recaptured Code." 
+	android:id="@+id/toeclipRecap"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="10px"
+	android:layout_below="@+id/toeclipLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text="A2" 
+	android:id="@+id/toeclipSuggestionText"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="10px"
+	android:layout_below="@+id/toeclipLabel"
+	android:layout_toRightOf="@+id/toeclipSuggestion" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="Clear" 
+	android:id="@+id/toeclipClearButton"
+	android:textSize="18px"
+	android:layout_marginTop="10px" 
+	android:layout_below="@+id/toeclipCheckText"
+	android:layout_alignParentRight="true" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Spinner android:id="@+id/toeclipAFenceSpinner" 
+	android:layout_below="@id/toeclipClearButton"
+	android:prompt="@string/selectOne"
+	android:layout_marginTop="10px"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<Spinner android:id="@+id/toeclipBFenceSpinner" 
+	android:layout_below="@id/toeclipClearButton"
+	android:prompt="@string/selectOne"
+	android:layout_alignParentRight="true"
+	android:layout_marginTop="10px"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<Spinner android:id="@+id/toeclipCFenceSpinner" 
+	android:prompt="@string/selectOne"
+	android:layout_above="@+id/toeclipBackButton"
+	android:layout_alignParentLeft="true"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<Spinner android:id="@+id/toeclipDFenceSpinner" 
+	android:prompt="@string/selectOne"
+	android:layout_above="@+id/toeclipNextButton"
+	android:layout_alignParentRight="true"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Spinner>    
+
+<Button android:text="Back" 
+	android:id="@+id/toeclipBackButton" 
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:layout_alignParentBottom="true" 
+	android:layout_width="100px" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Next" 
+	android:id="@+id/toeclipNextButton"
+	android:textSize="18px"
+	android:layout_marginTop="10px" 
+	android:layout_toRightOf="@+id/toeclipBackButton"
+	android:layout_alignParentBottom="true" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+    	
+</RelativeLayout>
+</ScrollView>

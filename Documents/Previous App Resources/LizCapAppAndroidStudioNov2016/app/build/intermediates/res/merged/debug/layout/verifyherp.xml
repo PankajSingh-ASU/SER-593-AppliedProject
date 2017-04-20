@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+
+<Button android:text="History" 
+	android:id="@+id/verifyherpHistoryButton"
+	android:textSize="14px"	
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabelTwo0" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_below="@+id/verifyherpHistoryButton"
+	android:layout_marginTop="5px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="ToeClip:"  
+	android:id="@+id/verifyherpToeLabel"
+	android:layout_below="@+id/hBarLabelTwo0"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpToeText"  
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/hBarLabelTwo0"
+	android:layout_alignParentRight="true"
+	android:gravity="center"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabelTwo" 
+	android:layout_width="fill_parent" 
+	android:layout_below="@+id/verifyherpToeLabel"
+	android:layout_height="2px"
+	android:layout_marginTop="5px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Trap:"  
+	android:id="@+id/verifyherpFenceLabel"
+	android:layout_below="@+id/hBarLabelTwo"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpFenceText"  
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/hBarLabelTwo"
+	android:layout_alignParentRight="true"
+	android:gravity="center"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabelZero"  
+	android:layout_below="@+id/verifyherpFenceLabel"
+	android:layout_width="fill_parent"
+	android:layout_marginTop="10px" 
+	android:layout_height="2px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Species Code:"  
+	android:id="@+id/verifyherpSpeciesCodeLabel" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/hBarLabelZero"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpSpeciesCodeText"  
+	android:layout_alignParentRight="true"
+	android:layout_marginTop="10px"
+	android:gravity="center"
+	android:layout_width="80px"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/hBarLabelZero"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabel300" 
+	android:layout_below="@id/verifyherpSpeciesCodeLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="SVL:"  
+	android:id="@+id/verifyherpSVLLabel"
+	android:layout_below="@+id/hBarLabel300"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpSVLText"
+	android:layout_marginTop="10px"
+	android:gravity="center"  
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/hBarLabel300"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabelEight" 
+	android:layout_below="@id/verifyherpSVLLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="VTL:"  
+	android:layout_marginTop="10px"
+	android:id="@+id/verifyherpVTLLabel"
+	android:layout_below="@+id/hBarLabelEight"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpVTLText"
+	android:layout_marginTop="10px"  
+	android:gravity="center"
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/hBarLabelEight"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabelNine" 
+	android:layout_below="@id/verifyherpVTLLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="OTL:"  
+	android:id="@+id/verifyherpOTLLabel"
+	android:layout_below="@+id/hBarLabelNine"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:layout_marginTop="10px"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpOTLText"
+	android:layout_marginTop="10px"
+	android:gravity="center"  
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/hBarLabelNine"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabelTen" 
+	android:layout_below="@id/verifyherpOTLLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Mass:"  
+	android:id="@+id/verifyherpMassLabel"
+	android:layout_below="@+id/hBarLabelTen"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpMassText"
+	android:layout_marginTop="10px"
+	android:gravity="center"  
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/hBarLabelTen"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabel13" 
+	android:layout_below="@id/verifyherpMassLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Sex:"  
+	android:id="@+id/verifyherpSexLabel"
+	android:layout_below="@+id/hBarLabel13"
+	android:layout_marginTop="10px"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpSexText"
+	android:layout_marginTop="10px"
+	android:gravity="center"  
+	android:layout_width="90px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/hBarLabel13"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabel11" 
+	android:layout_below="@id/verifyherpSexLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Hatchling?:"  
+	android:id="@+id/verifyherpHatchlingLabel"
+	android:layout_below="@+id/hBarLabel11"
+	android:layout_width="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpHatchlingText"
+	android:layout_marginTop="10px"
+	android:gravity="center"  
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/hBarLabel11"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabel14" 
+	android:layout_below="@id/verifyherpHatchlingLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Dead?:"  
+	android:id="@+id/verifyherpDeadLabel"
+	android:layout_below="@+id/hBarLabel14"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:layout_marginTop="10px"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpDeadText"
+	android:layout_marginTop="10px"
+	android:gravity="center"  
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/hBarLabel14"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabel15" 
+	android:layout_below="@id/verifyherpDeadLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Comments:"  
+	android:id="@+id/verifyherpCommentsLabel"
+	android:layout_below="@+id/hBarLabel15"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifyherpCommentsText"
+	android:layout_marginTop="10px"  
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:layout_below="@+id/verifyherpCommentsLabel"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/hBarLabel16" 
+	android:layout_below="@id/verifyherpCommentsText" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<Button android:text="Back" 
+	android:id="@+id/verifyherpBackButton" 
+	android:layout_below="@+id/hBarLabel16"
+	android:textSize="14px" 
+	android:layout_width="90px" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Edit" 
+	android:id="@+id/verifyherpEditButton" 
+	android:layout_below="@+id/hBarLabel16" 
+	android:textSize="14px"
+	android:layout_width="90px" 
+	android:layout_toRightOf="@+id/verifyherpBackButton"
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Done" 
+	android:id="@+id/verifyherpCorrectButton"
+	android:textSize="14px"
+	android:layout_below="@+id/hBarLabel16"
+	android:layout_toRightOf="@+id/verifyherpEditButton" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+</RelativeLayout>
+</ScrollView>

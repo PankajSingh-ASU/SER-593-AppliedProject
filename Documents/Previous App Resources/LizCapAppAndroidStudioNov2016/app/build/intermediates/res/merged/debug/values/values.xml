@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arthropodfencearray">
+		<item>@string/arthropodfencearray0</item>
+		<item>@string/arthropodfencearray1</item>
+		<item>@string/arthropodfencearray2</item>	
+		<item>@string/arthropodfencearray3</item>	
+		</string-array>
+    <string-array name="fencearray">
+		<item>@string/fencearray0</item>
+		<item>@string/fencearray1</item>
+		<item>@string/fencearray2</item>
+		<item>@string/fencearray3</item>
+		<item>@string/fencearray4</item>
+		<item>@string/fencearray5</item>
+		<item>@string/fencearray6</item>
+		<item>@string/fencearray7</item>
+		<item>@string/fencearray8</item>
+		<item>@string/fencearray9</item>
+		<item>@string/fencearray10</item>
+		<item>@string/fencearray11</item>
+		<item>@string/fencearray12</item>
+		</string-array>
+    <string-array name="liveDead">
+        <item>Live</item>
+        <item>Dead</item>
+    </string-array>
+    <string-array name="sexarray">
+		<item>@string/sexarray0</item>
+		<item>@string/sexarray1</item>
+		<item>@string/sexarray2</item>
+		<item>@string/sexarray3</item>
+	</string-array>
+    <string-array name="sitearray">
+		<item>@string/sitearray0</item>
+		<item>@string/sitearray1</item>
+		<item>@string/sitearray2</item>
+		<item>@string/sitearray3</item>
+		<item>@string/sitearray4</item>
+		<item>@string/sitearray5</item>
+		</string-array>
+    <string-array name="taxaarray">
+		<item>@string/taxaarray0</item>
+		<item>@string/taxaarray1</item>
+		<item>@string/taxaarray2</item>
+		<item>@string/taxaarray3</item>
+		<item>@string/taxaarray4</item>
+		<item>@string/taxaarray5</item>
+		</string-array>
+    <string-array name="thearray">
+		<item>@string/thearray0</item>
+		<item>@string/thearray1</item>
+		<item>@string/thearray2</item>
+	</string-array>
+    <string-array name="traps_array">
+        <item>OPEN</item>
+        <item>CHECKED</item>
+        <item>CHECKED &amp; CLOSED</item>
+    </string-array>
+    <declare-styleable name="ScrollLayout"><attr format="string" name="labelerClass"/><attr format="string" name="labelerFormat"/><attr format="dimension" name="childWidth"/><attr format="dimension" name="childHeight"/></declare-styleable>
+    <string name="app_name">LizCapApp</string>
+    <string name="arthropodfencearray0">Select</string>
+    <string name="arthropodfencearray1">A4</string>
+    <string name="arthropodfencearray2">B4</string>
+    <string name="arthropodfencearray3">C4</string>
+    <string name="dateSliderTitle">Selected date</string>
+    <string name="fencearray0">A1</string>
+    <string name="fencearray1">A2</string>
+    <string name="fencearray10">C3</string>
+    <string name="fencearray11">C4</string>
+    <string name="fencearray12">C-Fence</string>
+    <string name="fencearray2">A3</string>
+    <string name="fencearray3">A4</string>
+    <string name="fencearray4">A-Fence</string>
+    <string name="fencearray5">B2</string>
+    <string name="fencearray6">B3</string>
+    <string name="fencearray7">B4</string>
+    <string name="fencearray8">B-Fence</string>
+    <string name="fencearray9">C2</string>
+    <string name="hello">Hello World, Herp!</string>
+    <string name="selectOne">Select One</string>
+    <string name="sexarray0">Select</string>
+    <string name="sexarray1">Female</string>
+    <string name="sexarray2">Male</string>
+    <string name="sexarray3">Unknown</string>
+    <string name="sitearray0">Select</string>
+    <string name="sitearray1">GWA1</string>
+    <string name="sitearray2">GWA2</string>
+    <string name="sitearray3">GWA3</string>
+    <string name="sitearray4">GWA4</string>
+    <string name="sitearray5">GWA5</string>
+    <string name="taxaarray0">Select</string>
+    <string name="taxaarray1">Arthropod</string>
+    <string name="taxaarray2">Amphibian</string>
+    <string name="taxaarray3">Lizard</string>
+    <string name="taxaarray4">Mammal</string>
+    <string name="taxaarray5">Snake</string>
+    <string name="taxaarray6">No Capture</string>
+    <string name="thearray0">Select</string>
+    <string name="thearray1">1</string>
+    <string name="thearray2">2</string>
+    <string name="trap_prompt">Choose a State:</string>
+    <style name="Scroller">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/slider_back</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+</resources>

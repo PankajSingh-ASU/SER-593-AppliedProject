@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_mainLizard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/largelizard" />
+
+    <Button
+        android:id="@+id/mainNewAnimalButton"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:padding="10px"
+        android:text="Collect Data"
+        android:textSize="18px" >
+    </Button>
+
+    <Button
+        android:id="@+id/mainSyncButton"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainNewAnimalButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:padding="10px"
+        android:text="Sync"
+        android:textSize="18px" >
+    </Button>
+    
+    <Button
+        android:id="@+id/b_mainHistory"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mainSyncButton"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:padding="10px"
+        android:text="Unsynced History"
+        android:textSize="18px" >
+    </Button>
+    
+    <Button
+        android:id="@+id/mainExitButton"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b_mainHistory"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:padding="10px"
+        android:text="Exit"
+        android:textSize="18px" >
+    </Button>
+
+    <Button
+        android:id="@+id/b_mainAboutMe"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/mainExitButton"
+        android:layout_below="@id/mainExitButton"
+        android:layout_marginTop="40dp"
+        android:text="About Me"
+        android:textSize="18px" />
+
+    <TextView
+        android:id="@+id/tv_mainVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#333"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

@@ -1,0 +1,830 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/libraries/
+* .idea/libraries/LizCapApp.xml
+* .idea/libraries/annotations_a05919d9fc4d1e77eae4c5af7fdaf269.xml
+* .idea/libraries/sqlitejdbc_v056.xml
+* .idea/libraries/sqlitejdbc_v0561.xml
+* .idea/libraries/syncserver.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* Documentation/
+* Documentation/.svn/
+* Documentation/.svn/entries
+* Documentation/.svn/prop-base/
+* Documentation/.svn/prop-base/Airport_arthropods 2010-2011.xlsx.svn-base
+* Documentation/.svn/prop-base/BioLizardApp Issues List.xlsx.svn-base
+* Documentation/.svn/prop-base/CheckDates 2009-2011.xlsx.svn-base
+* Documentation/.svn/prop-base/Herp Caps GWA 2010.xlsx.svn-base
+* Documentation/.svn/prop-base/Herp Caps_GWA_2010_2011.xlsx.svn-base
+* Documentation/.svn/prop-base/Plans and Ideas for a Flexible Program.docx.svn-base
+* Documentation/.svn/prop-base/VR data 2009-2011.xlsx.svn-base
+* Documentation/.svn/text-base/
+* Documentation/.svn/text-base/Airport_arthropods 2010-2011.xlsx.svn-base
+* Documentation/.svn/text-base/BioLizardApp Issues List.xlsx.svn-base
+* Documentation/.svn/text-base/CheckDates 2009-2011.xlsx.svn-base
+* Documentation/.svn/text-base/Herp Caps GWA 2010.xlsx.svn-base
+* Documentation/.svn/text-base/Herp Caps_GWA_2010_2011.xlsx.svn-base
+* Documentation/.svn/text-base/Plans and Ideas for a Flexible Program.docx.svn-base
+* Documentation/.svn/text-base/VR data 2009-2011.xlsx.svn-base
+* Documentation/Airport_arthropods 2010-2011.xlsx
+* Documentation/Android Poster/
+* Documentation/Android Poster/.svn/
+* Documentation/Android Poster/.svn/entries
+* Documentation/Android Poster/.svn/prop-base/
+* Documentation/Android Poster/.svn/prop-base/1197107206400036309metalmarious_Laptop.svg.med.png.svn-base
+* Documentation/Android Poster/.svn/prop-base/BioPoster4.ppt.svn-base
+* Documentation/Android Poster/.svn/prop-base/DB Structurer.pptx.svn-base
+* Documentation/Android Poster/.svn/prop-base/Part1.png.svn-base
+* Documentation/Android Poster/.svn/prop-base/Part2.png.svn-base
+* Documentation/Android Poster/.svn/prop-base/Part3.png.svn-base
+* Documentation/Android Poster/.svn/prop-base/Part4.png.svn-base
+* Documentation/Android Poster/.svn/prop-base/Part5.png.svn-base
+* Documentation/Android Poster/.svn/prop-base/Part6.png.svn-base
+* Documentation/Android Poster/.svn/prop-base/Peter.png.svn-base
+* Documentation/Android Poster/.svn/prop-base/PosterTemplate.ppt.svn-base
+* Documentation/Android Poster/.svn/prop-base/Screen shot 2011-04-26 at 11.08.37 AM.png.svn-base
+* Documentation/Android Poster/.svn/prop-base/Screen shot 2011-04-26 at 11.12.20 AM.png.svn-base
+* Documentation/Android Poster/.svn/prop-base/peter-home.png.svn-base
+* Documentation/Android Poster/.svn/text-base/
+* Documentation/Android Poster/.svn/text-base/1197107206400036309metalmarious_Laptop.svg.med.png.svn-base
+* Documentation/Android Poster/.svn/text-base/BioPoster4.ppt.svn-base
+* Documentation/Android Poster/.svn/text-base/DB Structurer.pptx.svn-base
+* Documentation/Android Poster/.svn/text-base/Part1.png.svn-base
+* Documentation/Android Poster/.svn/text-base/Part2.png.svn-base
+* Documentation/Android Poster/.svn/text-base/Part3.png.svn-base
+* Documentation/Android Poster/.svn/text-base/Part4.png.svn-base
+* Documentation/Android Poster/.svn/text-base/Part5.png.svn-base
+* Documentation/Android Poster/.svn/text-base/Part6.png.svn-base
+* Documentation/Android Poster/.svn/text-base/Peter.png.svn-base
+* Documentation/Android Poster/.svn/text-base/PosterTemplate.ppt.svn-base
+* Documentation/Android Poster/.svn/text-base/Screen shot 2011-04-26 at 11.08.37 AM.png.svn-base
+* Documentation/Android Poster/.svn/text-base/Screen shot 2011-04-26 at 11.12.20 AM.png.svn-base
+* Documentation/Android Poster/.svn/text-base/peter-home.png.svn-base
+* Documentation/Android Poster/1197107206400036309metalmarious_Laptop.svg.med.png
+* Documentation/Android Poster/BioPoster4.ppt
+* Documentation/Android Poster/DB Structurer.pptx
+* Documentation/Android Poster/Part1.png
+* Documentation/Android Poster/Part2.png
+* Documentation/Android Poster/Part3.png
+* Documentation/Android Poster/Part4.png
+* Documentation/Android Poster/Part5.png
+* Documentation/Android Poster/Part6.png
+* Documentation/Android Poster/Peter.png
+* Documentation/Android Poster/PosterTemplate.ppt
+* Documentation/Android Poster/Screen shot 2011-04-26 at 11.08.37 AM.png
+* Documentation/Android Poster/Screen shot 2011-04-26 at 11.12.20 AM.png
+* Documentation/Android Poster/peter-home.png
+* Documentation/BioLizardApp Issues List.xlsx
+* Documentation/CheckDates 2009-2011.xlsx
+* Documentation/Heather PP Pics/
+* Documentation/Heather PP Pics/.svn/
+* Documentation/Heather PP Pics/.svn/entries
+* Documentation/Heather PP Pics/.svn/prop-base/
+* Documentation/Heather PP Pics/.svn/prop-base/icon.png.svn-base
+* Documentation/Heather PP Pics/.svn/text-base/
+* Documentation/Heather PP Pics/.svn/text-base/icon.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/
+* Documentation/Heather PP Pics/Blank Pics/.svn/
+* Documentation/Heather PP Pics/Blank Pics/.svn/entries
+* Documentation/Heather PP Pics/Blank Pics/.svn/prop-base/
+* Documentation/Heather PP Pics/Blank Pics/.svn/prop-base/Location Screen.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/.svn/prop-base/Measurements Screen Two.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/.svn/prop-base/Measurements Screen.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/.svn/prop-base/Toeclip Screen.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/.svn/prop-base/Update Database Screen.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/.svn/text-base/
+* Documentation/Heather PP Pics/Blank Pics/.svn/text-base/Location Screen.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/.svn/text-base/Measurements Screen Two.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/.svn/text-base/Measurements Screen.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/.svn/text-base/Toeclip Screen.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/.svn/text-base/Update Database Screen.png.svn-base
+* Documentation/Heather PP Pics/Blank Pics/Location Screen.png
+* Documentation/Heather PP Pics/Blank Pics/Measurements Screen Two.png
+* Documentation/Heather PP Pics/Blank Pics/Measurements Screen.png
+* Documentation/Heather PP Pics/Blank Pics/Toeclip Screen.png
+* Documentation/Heather PP Pics/Blank Pics/Update Database Screen.png
+* Documentation/Heather PP Pics/Info Pics/
+* Documentation/Heather PP Pics/Info Pics/.svn/
+* Documentation/Heather PP Pics/Info Pics/.svn/entries
+* Documentation/Heather PP Pics/Info Pics/.svn/prop-base/
+* Documentation/Heather PP Pics/Info Pics/.svn/prop-base/Location.png.svn-base
+* Documentation/Heather PP Pics/Info Pics/.svn/prop-base/Measurements Screen.png.svn-base
+* Documentation/Heather PP Pics/Info Pics/.svn/prop-base/Toeclip Screen.png.svn-base
+* Documentation/Heather PP Pics/Info Pics/.svn/prop-base/Update Database Screen.png.svn-base
+* Documentation/Heather PP Pics/Info Pics/.svn/text-base/
+* Documentation/Heather PP Pics/Info Pics/.svn/text-base/Location.png.svn-base
+* Documentation/Heather PP Pics/Info Pics/.svn/text-base/Measurements Screen.png.svn-base
+* Documentation/Heather PP Pics/Info Pics/.svn/text-base/Toeclip Screen.png.svn-base
+* Documentation/Heather PP Pics/Info Pics/.svn/text-base/Update Database Screen.png.svn-base
+* Documentation/Heather PP Pics/Info Pics/Location.png
+* Documentation/Heather PP Pics/Info Pics/Measurements Screen.png
+* Documentation/Heather PP Pics/Info Pics/Toeclip Screen.png
+* Documentation/Heather PP Pics/Info Pics/Update Database Screen.png
+* Documentation/Heather PP Pics/icon.png
+* Documentation/Herp Caps GWA 2010.xlsx
+* Documentation/Herp Caps_GWA_2010_2011.xlsx
+* Documentation/JavaThreadSock/
+* Documentation/JavaThreadSock/.svn/
+* Documentation/JavaThreadSock/.svn/entries
+* Documentation/JavaThreadSock/.svn/text-base/
+* Documentation/JavaThreadSock/.svn/text-base/build.xml.svn-base
+* Documentation/JavaThreadSock/JavaThreadSock.iml
+* Documentation/JavaThreadSock/build.xml
+* Documentation/JavaThreadSock/src/
+* Documentation/JavaThreadSock/src/.svn/
+* Documentation/JavaThreadSock/src/.svn/entries
+* Documentation/JavaThreadSock/src/.svn/text-base/
+* Documentation/JavaThreadSock/src/.svn/text-base/ThreadedSockClient.java.svn-base
+* Documentation/JavaThreadSock/src/.svn/text-base/ThreadedSockServer.java.svn-base
+* Documentation/JavaThreadSock/src/ThreadedSockClient.java
+* Documentation/JavaThreadSock/src/ThreadedSockServer.java
+* Documentation/Pictures/
+* Documentation/Pictures/.svn/
+* Documentation/Pictures/.svn/entries
+* Documentation/Pictures/.svn/prop-base/
+* Documentation/Pictures/.svn/prop-base/57x57 Lizard Icon.png.svn-base
+* Documentation/Pictures/.svn/prop-base/Trap array.pdf.svn-base
+* Documentation/Pictures/.svn/prop-base/TrapArray.png.svn-base
+* Documentation/Pictures/.svn/prop-base/biologyicon.jpg.svn-base
+* Documentation/Pictures/.svn/prop-base/clip_image_lg.png.svn-base
+* Documentation/Pictures/.svn/prop-base/oldtoetoe.png.svn-base
+* Documentation/Pictures/.svn/prop-base/toeclipselection.jpg.svn-base
+* Documentation/Pictures/.svn/prop-base/toetoe.jpg.svn-base
+* Documentation/Pictures/.svn/text-base/
+* Documentation/Pictures/.svn/text-base/57x57 Lizard Icon.png.svn-base
+* Documentation/Pictures/.svn/text-base/Trap array.pdf.svn-base
+* Documentation/Pictures/.svn/text-base/TrapArray.png.svn-base
+* Documentation/Pictures/.svn/text-base/biologyicon.jpg.svn-base
+* Documentation/Pictures/.svn/text-base/clip_image_lg.png.svn-base
+* Documentation/Pictures/.svn/text-base/oldtoetoe.png.svn-base
+* Documentation/Pictures/.svn/text-base/toeclipselection.jpg.svn-base
+* Documentation/Pictures/.svn/text-base/toetoe.jpg.svn-base
+* Documentation/Pictures/57x57 Lizard Icon.png
+* Documentation/Pictures/Trap array.pdf
+* Documentation/Pictures/TrapArray.png
+* Documentation/Pictures/biologyicon.jpg
+* Documentation/Pictures/clip_image_lg.png
+* Documentation/Pictures/oldtoetoe.png
+* Documentation/Pictures/toeclipselection.jpg
+* Documentation/Pictures/toetoe.jpg
+* Documentation/Plans and Ideas for a Flexible Program.docx
+* Documentation/SocketsObjC/
+* Documentation/SocketsObjC/.svn/
+* Documentation/SocketsObjC/.svn/entries
+* Documentation/SocketsObjC/.svn/text-base/
+* Documentation/SocketsObjC/.svn/text-base/GNUmakefile.svn-base
+* Documentation/SocketsObjC/.svn/text-base/build.xml.svn-base
+* Documentation/SocketsObjC/.svn/text-base/xcruncmd.svn-base
+* Documentation/SocketsObjC/GNUmakefile
+* Documentation/SocketsObjC/META-INF/
+* Documentation/SocketsObjC/META-INF/.svn/
+* Documentation/SocketsObjC/META-INF/.svn/entries
+* Documentation/SocketsObjC/META-INF/.svn/text-base/
+* Documentation/SocketsObjC/META-INF/.svn/text-base/MANIFEST.MF.svn-base
+* Documentation/SocketsObjC/META-INF/MANIFEST.MF
+* Documentation/SocketsObjC/build.xml
+* Documentation/SocketsObjC/classes/
+* Documentation/SocketsObjC/classes/.svn/
+* Documentation/SocketsObjC/classes/.svn/entries
+* Documentation/SocketsObjC/classes/cst420/
+* Documentation/SocketsObjC/classes/cst420/.svn/
+* Documentation/SocketsObjC/classes/cst420/.svn/entries
+* Documentation/SocketsObjC/classes/cst420/socket/
+* Documentation/SocketsObjC/classes/cst420/socket/.svn/
+* Documentation/SocketsObjC/classes/cst420/socket/.svn/entries
+* Documentation/SocketsObjC/classes/cst420/socket/.svn/prop-base/
+* Documentation/SocketsObjC/classes/cst420/socket/.svn/prop-base/EchoClient.class.svn-base
+* Documentation/SocketsObjC/classes/cst420/socket/.svn/prop-base/ThreadedEchoServer.class.svn-base
+* Documentation/SocketsObjC/classes/cst420/socket/.svn/text-base/
+* Documentation/SocketsObjC/classes/cst420/socket/.svn/text-base/EchoClient.class.svn-base
+* Documentation/SocketsObjC/classes/cst420/socket/.svn/text-base/ThreadedEchoServer.class.svn-base
+* Documentation/SocketsObjC/classes/cst420/socket/EchoClient.class
+* Documentation/SocketsObjC/classes/cst420/socket/ThreadedEchoServer.class
+* Documentation/SocketsObjC/obj/
+* Documentation/SocketsObjC/obj/.svn/
+* Documentation/SocketsObjC/obj/.svn/entries
+* Documentation/SocketsObjC/src/
+* Documentation/SocketsObjC/src/.svn/
+* Documentation/SocketsObjC/src/.svn/entries
+* Documentation/SocketsObjC/src/SocketsObjC.iml
+* Documentation/SocketsObjC/src/java/
+* Documentation/SocketsObjC/src/java/.svn/
+* Documentation/SocketsObjC/src/java/.svn/entries
+* Documentation/SocketsObjC/src/java/.svn/text-base/
+* Documentation/SocketsObjC/src/java/.svn/text-base/EchoClient.java.svn-base
+* Documentation/SocketsObjC/src/java/.svn/text-base/ThreadedEchoServer.java.svn-base
+* Documentation/SocketsObjC/src/java/EchoClient.java
+* Documentation/SocketsObjC/src/java/ThreadedEchoServer.java
+* Documentation/SocketsObjC/src/objc/
+* Documentation/SocketsObjC/src/objc/.svn/
+* Documentation/SocketsObjC/src/objc/.svn/entries
+* Documentation/SocketsObjC/src/objc/.svn/text-base/
+* Documentation/SocketsObjC/src/objc/.svn/text-base/Cst420Socket.h.svn-base
+* Documentation/SocketsObjC/src/objc/.svn/text-base/Cst420Socket.m.svn-base
+* Documentation/SocketsObjC/src/objc/.svn/text-base/client.m.svn-base
+* Documentation/SocketsObjC/src/objc/.svn/text-base/server.m.svn-base
+* Documentation/SocketsObjC/src/objc/Cst420Socket.h
+* Documentation/SocketsObjC/src/objc/Cst420Socket.m
+* Documentation/SocketsObjC/src/objc/client.m
+* Documentation/SocketsObjC/src/objc/server.m
+* Documentation/SocketsObjC/xcruncmd
+* Documentation/SyncServer/
+* Documentation/SyncServer/.svn/
+* Documentation/SyncServer/.svn/entries
+* Documentation/SyncServer/.svn/prop-base/
+* Documentation/SyncServer/.svn/prop-base/asu_east.db.svn-base
+* Documentation/SyncServer/.svn/prop-base/syncserver.jar.svn-base
+* Documentation/SyncServer/.svn/prop-base/virgin_river.db.svn-base
+* Documentation/SyncServer/.svn/text-base/
+* Documentation/SyncServer/.svn/text-base/ManifestServer.txt.svn-base
+* Documentation/SyncServer/.svn/text-base/NewDBStatements.sql.svn-base
+* Documentation/SyncServer/.svn/text-base/ReturnDBtoUser.sql.svn-base
+* Documentation/SyncServer/.svn/text-base/asu_east.db.svn-base
+* Documentation/SyncServer/.svn/text-base/asu_eastarthro.csv.svn-base
+* Documentation/SyncServer/.svn/text-base/asu_eastdates.csv.svn-base
+* Documentation/SyncServer/.svn/text-base/asu_eastherp.csv.svn-base
+* Documentation/SyncServer/.svn/text-base/build.xml.svn-base
+* Documentation/SyncServer/.svn/text-base/createarthrocsv.bash.svn-base
+* Documentation/SyncServer/.svn/text-base/createarthrocsv.txt.svn-base
+* Documentation/SyncServer/.svn/text-base/createdatescsv.bash.svn-base
+* Documentation/SyncServer/.svn/text-base/createdatescsv.txt.svn-base
+* Documentation/SyncServer/.svn/text-base/createherpcsv.bash.svn-base
+* Documentation/SyncServer/.svn/text-base/createherpcsv.txt.svn-base
+* Documentation/SyncServer/.svn/text-base/execsqlitedump.bash.svn-base
+* Documentation/SyncServer/.svn/text-base/execsqlitedump.txt.svn-base
+* Documentation/SyncServer/.svn/text-base/herpcapturetest.svn-base
+* Documentation/SyncServer/.svn/text-base/index.html.svn-base
+* Documentation/SyncServer/.svn/text-base/myserver.sql.svn-base
+* Documentation/SyncServer/.svn/text-base/phpliteadmin.php.svn-base
+* Documentation/SyncServer/.svn/text-base/realHerpCapturedata.svn-base
+* Documentation/SyncServer/.svn/text-base/syncserver.jar.svn-base
+* Documentation/SyncServer/.svn/text-base/tempherpcapturedb.svn-base
+* Documentation/SyncServer/.svn/text-base/tryherptest.svn-base
+* Documentation/SyncServer/.svn/text-base/virgin_river.db.svn-base
+* Documentation/SyncServer/.svn/text-base/virgin_riverarthro.csv.svn-base
+* Documentation/SyncServer/.svn/text-base/virgin_riverdates.csv.svn-base
+* Documentation/SyncServer/.svn/text-base/virgin_riverherp.csv.svn-base
+* Documentation/SyncServer/Backup/
+* Documentation/SyncServer/Backup/.svn/
+* Documentation/SyncServer/Backup/.svn/entries
+* Documentation/SyncServer/Backup/.svn/prop-base/
+* Documentation/SyncServer/Backup/.svn/prop-base/virgin_river06202011.db.svn-base
+* Documentation/SyncServer/Backup/.svn/text-base/
+* Documentation/SyncServer/Backup/.svn/text-base/virgin_river06202011.db.svn-base
+* Documentation/SyncServer/Backup/virgin_river06202011.db
+* Documentation/SyncServer/ManifestServer.txt
+* Documentation/SyncServer/NewDBStatements.sql
+* Documentation/SyncServer/ReturnDBtoUser.sql
+* Documentation/SyncServer/asu_east.db
+* Documentation/SyncServer/asu_eastarthro.csv
+* Documentation/SyncServer/asu_eastdates.csv
+* Documentation/SyncServer/asu_eastherp.csv
+* Documentation/SyncServer/build.xml
+* Documentation/SyncServer/classes/
+* Documentation/SyncServer/classes/.svn/
+* Documentation/SyncServer/classes/.svn/entries
+* Documentation/SyncServer/classes/asu/
+* Documentation/SyncServer/classes/asu/.svn/
+* Documentation/SyncServer/classes/asu/.svn/entries
+* Documentation/SyncServer/classes/asu/edu/
+* Documentation/SyncServer/classes/asu/edu/.svn/
+* Documentation/SyncServer/classes/asu/edu/.svn/entries
+* Documentation/SyncServer/classes/asu/edu/.svn/prop-base/
+* Documentation/SyncServer/classes/asu/edu/.svn/prop-base/ThreadedEchoServer.class.svn-base
+* Documentation/SyncServer/classes/asu/edu/.svn/text-base/
+* Documentation/SyncServer/classes/asu/edu/.svn/text-base/ThreadedEchoServer.class.svn-base
+* Documentation/SyncServer/classes/asu/edu/ThreadedEchoServer.class
+* Documentation/SyncServer/classes/edu/
+* Documentation/SyncServer/classes/edu/.svn/
+* Documentation/SyncServer/classes/edu/.svn/entries
+* Documentation/SyncServer/classes/edu/asu/
+* Documentation/SyncServer/classes/edu/asu/.svn/
+* Documentation/SyncServer/classes/edu/asu/.svn/entries
+* Documentation/SyncServer/classes/edu/asu/herps/
+* Documentation/SyncServer/classes/edu/asu/herps/.svn/
+* Documentation/SyncServer/classes/edu/asu/herps/.svn/entries
+* Documentation/SyncServer/classes/edu/asu/herps/.svn/prop-base/
+* Documentation/SyncServer/classes/edu/asu/herps/.svn/prop-base/SampleSyncClient.class.svn-base
+* Documentation/SyncServer/classes/edu/asu/herps/.svn/prop-base/ThreadedSyncServer.class.svn-base
+* Documentation/SyncServer/classes/edu/asu/herps/.svn/text-base/
+* Documentation/SyncServer/classes/edu/asu/herps/.svn/text-base/SampleSyncClient.class.svn-base
+* Documentation/SyncServer/classes/edu/asu/herps/.svn/text-base/ThreadedSyncServer.class.svn-base
+* Documentation/SyncServer/classes/edu/asu/herps/SampleSyncClient.class
+* Documentation/SyncServer/classes/edu/asu/herps/ThreadedSyncServer.class
+* Documentation/SyncServer/createarthrocsv.bash
+* Documentation/SyncServer/createarthrocsv.txt
+* Documentation/SyncServer/createdatescsv.bash
+* Documentation/SyncServer/createdatescsv.txt
+* Documentation/SyncServer/createherpcsv.bash
+* Documentation/SyncServer/createherpcsv.txt
+* Documentation/SyncServer/execsqlitedump.bash
+* Documentation/SyncServer/execsqlitedump.txt
+* Documentation/SyncServer/herpcapturetest
+* Documentation/SyncServer/index.html
+* Documentation/SyncServer/lib/
+* Documentation/SyncServer/lib/.svn/
+* Documentation/SyncServer/lib/.svn/entries
+* Documentation/SyncServer/lib/.svn/prop-base/
+* Documentation/SyncServer/lib/.svn/prop-base/sqlitejdbc-v056.jar.svn-base
+* Documentation/SyncServer/lib/.svn/text-base/
+* Documentation/SyncServer/lib/.svn/text-base/sqlitejdbc-v056.jar.svn-base
+* Documentation/SyncServer/lib/sqlitejdbc-v056.jar
+* Documentation/SyncServer/myserver.sql
+* Documentation/SyncServer/phpliteadmin.php
+* Documentation/SyncServer/realHerpCapturedata
+* Documentation/SyncServer/sql/
+* Documentation/SyncServer/sql/.svn/
+* Documentation/SyncServer/sql/.svn/entries
+* Documentation/SyncServer/src/
+* Documentation/SyncServer/src/.svn/
+* Documentation/SyncServer/src/.svn/entries
+* Documentation/SyncServer/src/SyncServer.iml
+* Documentation/SyncServer/src/java/
+* Documentation/SyncServer/src/java/.svn/
+* Documentation/SyncServer/src/java/.svn/entries
+* Documentation/SyncServer/src/java/.svn/text-base/
+* Documentation/SyncServer/src/java/.svn/text-base/SampleSyncClient.java.svn-base
+* Documentation/SyncServer/src/java/.svn/text-base/ThreadedEchoServer.java.svn-base
+* Documentation/SyncServer/src/java/.svn/text-base/ThreadedSyncServer.java.svn-base
+* Documentation/SyncServer/src/java/SampleSyncClient.java
+* Documentation/SyncServer/src/java/ThreadedEchoServer.java
+* Documentation/SyncServer/src/java/ThreadedSyncServer.java
+* Documentation/SyncServer/src/objc/
+* Documentation/SyncServer/src/objc/.svn/
+* Documentation/SyncServer/src/objc/.svn/entries
+* Documentation/SyncServer/src/objc/.svn/text-base/
+* Documentation/SyncServer/src/objc/.svn/text-base/Cst420Socket.h.svn-base
+* Documentation/SyncServer/src/objc/.svn/text-base/Cst420Socket.m.svn-base
+* Documentation/SyncServer/src/objc/.svn/text-base/client.m.svn-base
+* Documentation/SyncServer/src/objc/.svn/text-base/server.m.svn-base
+* Documentation/SyncServer/src/objc/Cst420Socket.h
+* Documentation/SyncServer/src/objc/Cst420Socket.m
+* Documentation/SyncServer/src/objc/client.m
+* Documentation/SyncServer/src/objc/server.m
+* Documentation/SyncServer/syncserver.jar
+* Documentation/SyncServer/tempherpcapturedb
+* Documentation/SyncServer/tryherptest
+* Documentation/SyncServer/virgin_river.db
+* Documentation/SyncServer/virgin_riverarthro.csv
+* Documentation/SyncServer/virgin_riverdates.csv
+* Documentation/SyncServer/virgin_riverherp.csv
+* Documentation/TestSocket/
+* Documentation/TestSocket/.classpath
+* Documentation/TestSocket/.project
+* Documentation/TestSocket/.settings/
+* Documentation/TestSocket/.settings/.svn/
+* Documentation/TestSocket/.settings/.svn/entries
+* Documentation/TestSocket/.settings/.svn/text-base/
+* Documentation/TestSocket/.settings/.svn/text-base/org.eclipse.jdt.core.prefs.svn-base
+* Documentation/TestSocket/.settings/org.eclipse.jdt.core.prefs
+* Documentation/TestSocket/.svn/
+* Documentation/TestSocket/.svn/entries
+* Documentation/TestSocket/.svn/text-base/
+* Documentation/TestSocket/.svn/text-base/.classpath.svn-base
+* Documentation/TestSocket/.svn/text-base/.project.svn-base
+* Documentation/TestSocket/.svn/text-base/DBUpdate.txt.svn-base
+* Documentation/TestSocket/.svn/text-base/NewClientDBStatements.txt.svn-base
+* Documentation/TestSocket/.svn/text-base/NewDBStatements.txt.svn-base
+* Documentation/TestSocket/.svn/text-base/ReturnDBtoUser.txt.svn-base
+* Documentation/TestSocket/.svn/text-base/build.xml.svn-base
+* Documentation/TestSocket/DBUpdate.txt
+* Documentation/TestSocket/NewClientDBStatements.txt
+* Documentation/TestSocket/NewDBStatements.txt
+* Documentation/TestSocket/ReturnDBtoUser.txt
+* Documentation/TestSocket/bin/
+* Documentation/TestSocket/bin/.svn/
+* Documentation/TestSocket/bin/.svn/entries
+* Documentation/TestSocket/bin/asu/
+* Documentation/TestSocket/bin/asu/.svn/
+* Documentation/TestSocket/bin/asu/.svn/entries
+* Documentation/TestSocket/bin/asu/edu/
+* Documentation/TestSocket/bin/asu/edu/.svn/
+* Documentation/TestSocket/bin/asu/edu/.svn/entries
+* Documentation/TestSocket/bin/asu/edu/.svn/prop-base/
+* Documentation/TestSocket/bin/asu/edu/.svn/prop-base/EchoClient.class.svn-base
+* Documentation/TestSocket/bin/asu/edu/.svn/prop-base/ThreadedEchoServer.class.svn-base
+* Documentation/TestSocket/bin/asu/edu/.svn/text-base/
+* Documentation/TestSocket/bin/asu/edu/.svn/text-base/EchoClient.class.svn-base
+* Documentation/TestSocket/bin/asu/edu/.svn/text-base/ThreadedEchoServer.class.svn-base
+* Documentation/TestSocket/bin/asu/edu/EchoClient.class
+* Documentation/TestSocket/bin/asu/edu/ThreadedEchoServer.class
+* Documentation/TestSocket/build.xml
+* Documentation/TestSocket/classes/
+* Documentation/TestSocket/classes/.svn/
+* Documentation/TestSocket/classes/.svn/entries
+* Documentation/TestSocket/classes/cst420/
+* Documentation/TestSocket/classes/cst420/.svn/
+* Documentation/TestSocket/classes/cst420/.svn/entries
+* Documentation/TestSocket/classes/cst420/socket/
+* Documentation/TestSocket/classes/cst420/socket/.svn/
+* Documentation/TestSocket/classes/cst420/socket/.svn/entries
+* Documentation/TestSocket/classes/cst420/socket/.svn/prop-base/
+* Documentation/TestSocket/classes/cst420/socket/.svn/prop-base/EchoClient.class.svn-base
+* Documentation/TestSocket/classes/cst420/socket/.svn/prop-base/ThreadedEchoServer.class.svn-base
+* Documentation/TestSocket/classes/cst420/socket/.svn/text-base/
+* Documentation/TestSocket/classes/cst420/socket/.svn/text-base/EchoClient.class.svn-base
+* Documentation/TestSocket/classes/cst420/socket/.svn/text-base/ThreadedEchoServer.class.svn-base
+* Documentation/TestSocket/classes/cst420/socket/EchoClient.class
+* Documentation/TestSocket/classes/cst420/socket/ThreadedEchoServer.class
+* Documentation/TestSocket/lib/
+* Documentation/TestSocket/lib/.svn/
+* Documentation/TestSocket/lib/.svn/entries
+* Documentation/TestSocket/lib/.svn/prop-base/
+* Documentation/TestSocket/lib/.svn/prop-base/sqlitejdbc-v056.jar.svn-base
+* Documentation/TestSocket/lib/.svn/text-base/
+* Documentation/TestSocket/lib/.svn/text-base/sqlitejdbc-v056.jar.svn-base
+* Documentation/TestSocket/lib/sqlitejdbc-v056.jar
+* Documentation/TestSocket/obj/
+* Documentation/TestSocket/obj/.svn/
+* Documentation/TestSocket/obj/.svn/entries
+* Documentation/TestSocket/src/
+* Documentation/TestSocket/src/.svn/
+* Documentation/TestSocket/src/.svn/entries
+* Documentation/TestSocket/src/TestSocket.iml
+* Documentation/TestSocket/src/asu/
+* Documentation/TestSocket/src/asu/.svn/
+* Documentation/TestSocket/src/asu/.svn/entries
+* Documentation/TestSocket/src/asu/edu/
+* Documentation/TestSocket/src/asu/edu/.svn/
+* Documentation/TestSocket/src/asu/edu/.svn/entries
+* Documentation/TestSocket/src/java/
+* Documentation/TestSocket/src/java/.svn/
+* Documentation/TestSocket/src/java/.svn/entries
+* Documentation/TestSocket/src/java/.svn/text-base/
+* Documentation/TestSocket/src/java/.svn/text-base/EchoClient.java.svn-base
+* Documentation/TestSocket/src/java/.svn/text-base/ThreadedEchoServer.java.svn-base
+* Documentation/TestSocket/src/java/EchoClient.java
+* Documentation/TestSocket/src/java/ThreadedEchoServer.java
+* Documentation/TestSocket/src/objc/
+* Documentation/TestSocket/src/objc/.svn/
+* Documentation/TestSocket/src/objc/.svn/entries
+* Documentation/TestSocket/src/objc/.svn/text-base/
+* Documentation/TestSocket/src/objc/.svn/text-base/Cst420Socket.h.svn-base
+* Documentation/TestSocket/src/objc/.svn/text-base/Cst420Socket.m.svn-base
+* Documentation/TestSocket/src/objc/.svn/text-base/client.m.svn-base
+* Documentation/TestSocket/src/objc/.svn/text-base/server.m.svn-base
+* Documentation/TestSocket/src/objc/Cst420Socket.h
+* Documentation/TestSocket/src/objc/Cst420Socket.m
+* Documentation/TestSocket/src/objc/client.m
+* Documentation/TestSocket/src/objc/server.m
+* Documentation/VR data 2009-2011.xlsx
+* LizCapApp.iml
+* Lizard Capture App - Class Overview.pdf
+* Test.txt
+* bugsense-trace-1-1-2.jar
+* crittercism_v1_3_0.jar
+* herpdatabase
+* out/
+* out/production/
+* out/production/JavaThreadSock/
+* out/production/JavaThreadSock/cst420/
+* out/production/JavaThreadSock/cst420/sockets/
+* out/production/JavaThreadSock/cst420/sockets/ThreadedSockClient.class
+* out/production/JavaThreadSock/cst420/sockets/ThreadedSockServer.class
+* out/production/LizCapApp/
+* out/production/LizCapApp/LizCapApp.apk
+* out/production/LizCapApp/LizCapApp.unaligned.apk
+* out/production/LizCapApp/asu/
+* out/production/LizCapApp/asu/edu/
+* out/production/LizCapApp/asu/edu/BuildConfig.class
+* out/production/LizCapApp/asu/edu/DateTimeSlider.class
+* out/production/LizCapApp/asu/edu/LizardApplication.class
+* out/production/LizCapApp/asu/edu/R$array.class
+* out/production/LizCapApp/asu/edu/R$attr.class
+* out/production/LizCapApp/asu/edu/R$drawable.class
+* out/production/LizCapApp/asu/edu/R$id.class
+* out/production/LizCapApp/asu/edu/R$layout.class
+* out/production/LizCapApp/asu/edu/R$string.class
+* out/production/LizCapApp/asu/edu/R$style.class
+* out/production/LizCapApp/asu/edu/R$styleable.class
+* out/production/LizCapApp/asu/edu/R.class
+* out/production/LizCapApp/asu/edu/ScrollLayout$OnScrollListener.class
+* out/production/LizCapApp/asu/edu/ScrollLayout.class
+* out/production/LizCapApp/asu/edu/SliderContainer$1.class
+* out/production/LizCapApp/asu/edu/SliderContainer$OnTimeChangeListener.class
+* out/production/LizCapApp/asu/edu/SliderContainer.class
+* out/production/LizCapApp/asu/edu/TimeObject.class
+* out/production/LizCapApp/asu/edu/activity/
+* out/production/LizCapApp/asu/edu/activity/AboutApplication.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$1$1.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$1.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$10.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$11.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$12.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$13.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$14.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$15.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$16.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$17.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$18.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$19.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$2.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$20.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$21.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$22.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$23.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$24.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$25.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$26.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$27.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$28.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$29.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$3.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$30.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$31.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$32.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$33.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$34.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$35.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$36.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$37.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$38.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$39.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$4.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$40.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$41.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$42.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$43.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$5.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$6.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$7.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$8.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod$9.class
+* out/production/LizCapApp/asu/edu/activity/AddArthropod.class
+* out/production/LizCapApp/asu/edu/activity/Amphibian$1.class
+* out/production/LizCapApp/asu/edu/activity/Amphibian$2.class
+* out/production/LizCapApp/asu/edu/activity/Amphibian$3.class
+* out/production/LizCapApp/asu/edu/activity/Amphibian$4.class
+* out/production/LizCapApp/asu/edu/activity/Amphibian.class
+* out/production/LizCapApp/asu/edu/activity/AnimalHistory$1.class
+* out/production/LizCapApp/asu/edu/activity/AnimalHistory$ArthropodLongClickListener.class
+* out/production/LizCapApp/asu/edu/activity/AnimalHistory$ArthropodTouchListener.class
+* out/production/LizCapApp/asu/edu/activity/AnimalHistory.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$1$1.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$1$2.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$1.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$2.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$3$1.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$3.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$4$1.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$4$2.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$4$3.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$4.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$EfficientAdapter$ViewHolder.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod$EfficientAdapter.class
+* out/production/LizCapApp/asu/edu/activity/Arthropod.class
+* out/production/LizCapApp/asu/edu/activity/ArthropodOld$1$1.class
+* out/production/LizCapApp/asu/edu/activity/ArthropodOld$1.class
+* out/production/LizCapApp/asu/edu/activity/ArthropodOld$2.class
+* out/production/LizCapApp/asu/edu/activity/ArthropodOld$3.class
+* out/production/LizCapApp/asu/edu/activity/ArthropodOld.class
+* out/production/LizCapApp/asu/edu/activity/CheckdatesHistory$CheckdateOnClickListener.class
+* out/production/LizCapApp/asu/edu/activity/CheckdatesHistory.class
+* out/production/LizCapApp/asu/edu/activity/EditArthropod$1.class
+* out/production/LizCapApp/asu/edu/activity/EditArthropod$UpdateButtonListener.class
+* out/production/LizCapApp/asu/edu/activity/EditArthropod.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$1.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$10.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$11.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$12.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$13.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$2.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$3.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$4.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$5.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$6.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$7.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$8.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray$9.class
+* out/production/LizCapApp/asu/edu/activity/FenceArray.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartOne$1$1.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartOne$1.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartOne$2$1.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartOne$2.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartOne$3.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartOne$4.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartOne$5.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartOne$6.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartOne.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartThree$1$1.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartThree$1.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartThree$2.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartThree.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartTwo$1.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartTwo$2$1.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartTwo$2.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartTwo$3.class
+* out/production/LizCapApp/asu/edu/activity/HerpDataPartTwo.class
+* out/production/LizCapApp/asu/edu/activity/LocationComments$1.class
+* out/production/LizCapApp/asu/edu/activity/LocationComments$NextButtonListener.class
+* out/production/LizCapApp/asu/edu/activity/LocationComments.class
+* out/production/LizCapApp/asu/edu/activity/MainMenu$1.class
+* out/production/LizCapApp/asu/edu/activity/MainMenu$2.class
+* out/production/LizCapApp/asu/edu/activity/MainMenu$3.class
+* out/production/LizCapApp/asu/edu/activity/MainMenu$4.class
+* out/production/LizCapApp/asu/edu/activity/MainMenu$5.class
+* out/production/LizCapApp/asu/edu/activity/MainMenu.class
+* out/production/LizCapApp/asu/edu/activity/Mammal$1$1.class
+* out/production/LizCapApp/asu/edu/activity/Mammal$1.class
+* out/production/LizCapApp/asu/edu/activity/Mammal$2.class
+* out/production/LizCapApp/asu/edu/activity/Mammal$3.class
+* out/production/LizCapApp/asu/edu/activity/Mammal$4.class
+* out/production/LizCapApp/asu/edu/activity/Mammal.class
+* out/production/LizCapApp/asu/edu/activity/NoCapture$1.class
+* out/production/LizCapApp/asu/edu/activity/NoCapture$2$1.class
+* out/production/LizCapApp/asu/edu/activity/NoCapture$2.class
+* out/production/LizCapApp/asu/edu/activity/NoCapture$3.class
+* out/production/LizCapApp/asu/edu/activity/NoCapture$4.class
+* out/production/LizCapApp/asu/edu/activity/NoCapture.class
+* out/production/LizCapApp/asu/edu/activity/OriginalArthropod$1$1.class
+* out/production/LizCapApp/asu/edu/activity/OriginalArthropod$1.class
+* out/production/LizCapApp/asu/edu/activity/OriginalArthropod$2.class
+* out/production/LizCapApp/asu/edu/activity/OriginalArthropod$3.class
+* out/production/LizCapApp/asu/edu/activity/OriginalArthropod$4.class
+* out/production/LizCapApp/asu/edu/activity/OriginalArthropod.class
+* out/production/LizCapApp/asu/edu/activity/RecaptureList$1.class
+* out/production/LizCapApp/asu/edu/activity/RecaptureList.class
+* out/production/LizCapApp/asu/edu/activity/Search$1.class
+* out/production/LizCapApp/asu/edu/activity/Search.class
+* out/production/LizCapApp/asu/edu/activity/Snake$1$1.class
+* out/production/LizCapApp/asu/edu/activity/Snake$1.class
+* out/production/LizCapApp/asu/edu/activity/Snake$2.class
+* out/production/LizCapApp/asu/edu/activity/Snake$3.class
+* out/production/LizCapApp/asu/edu/activity/Snake$4.class
+* out/production/LizCapApp/asu/edu/activity/Snake.class
+* out/production/LizCapApp/asu/edu/activity/SpeciesList$1.class
+* out/production/LizCapApp/asu/edu/activity/SpeciesList$EfficientAdapter$ViewHolder.class
+* out/production/LizCapApp/asu/edu/activity/SpeciesList$EfficientAdapter.class
+* out/production/LizCapApp/asu/edu/activity/SpeciesList.class
+* out/production/LizCapApp/asu/edu/activity/Sync$1.class
+* out/production/LizCapApp/asu/edu/activity/Sync$2.class
+* out/production/LizCapApp/asu/edu/activity/Sync$3.class
+* out/production/LizCapApp/asu/edu/activity/Sync$4.class
+* out/production/LizCapApp/asu/edu/activity/Sync.class
+* out/production/LizCapApp/asu/edu/activity/TaxaSelection$1.class
+* out/production/LizCapApp/asu/edu/activity/TaxaSelection$2.class
+* out/production/LizCapApp/asu/edu/activity/TaxaSelection$3.class
+* out/production/LizCapApp/asu/edu/activity/TaxaSelection.class
+* out/production/LizCapApp/asu/edu/activity/ToeClipCode$1$1.class
+* out/production/LizCapApp/asu/edu/activity/ToeClipCode$1$2.class
+* out/production/LizCapApp/asu/edu/activity/ToeClipCode$1.class
+* out/production/LizCapApp/asu/edu/activity/ToeClipCode$2.class
+* out/production/LizCapApp/asu/edu/activity/ToeClipCode$3.class
+* out/production/LizCapApp/asu/edu/activity/ToeClipCode$4.class
+* out/production/LizCapApp/asu/edu/activity/ToeClipCode$OnToeClipSelectedListener.class
+* out/production/LizCapApp/asu/edu/activity/ToeClipCode.class
+* out/production/LizCapApp/asu/edu/activity/TrapArray$1.class
+* out/production/LizCapApp/asu/edu/activity/TrapArray$2.class
+* out/production/LizCapApp/asu/edu/activity/TrapArray$3.class
+* out/production/LizCapApp/asu/edu/activity/TrapArray.class
+* out/production/LizCapApp/asu/edu/activity/UserData$1.class
+* out/production/LizCapApp/asu/edu/activity/UserData$2$1.class
+* out/production/LizCapApp/asu/edu/activity/UserData$2.class
+* out/production/LizCapApp/asu/edu/activity/UserData$3.class
+* out/production/LizCapApp/asu/edu/activity/UserData.class
+* out/production/LizCapApp/asu/edu/activity/VerifyAmphibian$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyAmphibian$2$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyAmphibian$2.class
+* out/production/LizCapApp/asu/edu/activity/VerifyAmphibian$3$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyAmphibian$3$2.class
+* out/production/LizCapApp/asu/edu/activity/VerifyAmphibian$3$3.class
+* out/production/LizCapApp/asu/edu/activity/VerifyAmphibian$3.class
+* out/production/LizCapApp/asu/edu/activity/VerifyAmphibian$4.class
+* out/production/LizCapApp/asu/edu/activity/VerifyAmphibian.class
+* out/production/LizCapApp/asu/edu/activity/VerifyArthropod$1$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyArthropod$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyArthropod$2$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyArthropod$2$2.class
+* out/production/LizCapApp/asu/edu/activity/VerifyArthropod$2$3.class
+* out/production/LizCapApp/asu/edu/activity/VerifyArthropod$2.class
+* out/production/LizCapApp/asu/edu/activity/VerifyArthropod.class
+* out/production/LizCapApp/asu/edu/activity/VerifyHerp$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyHerp$2.class
+* out/production/LizCapApp/asu/edu/activity/VerifyHerp$3$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyHerp$3.class
+* out/production/LizCapApp/asu/edu/activity/VerifyHerp$4$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyHerp$4$2.class
+* out/production/LizCapApp/asu/edu/activity/VerifyHerp$4$3.class
+* out/production/LizCapApp/asu/edu/activity/VerifyHerp$4.class
+* out/production/LizCapApp/asu/edu/activity/VerifyHerp$5.class
+* out/production/LizCapApp/asu/edu/activity/VerifyHerp.class
+* out/production/LizCapApp/asu/edu/activity/VerifyMammal$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyMammal$2$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyMammal$2.class
+* out/production/LizCapApp/asu/edu/activity/VerifyMammal$3$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifyMammal$3$2.class
+* out/production/LizCapApp/asu/edu/activity/VerifyMammal$3$3.class
+* out/production/LizCapApp/asu/edu/activity/VerifyMammal$3.class
+* out/production/LizCapApp/asu/edu/activity/VerifyMammal$4.class
+* out/production/LizCapApp/asu/edu/activity/VerifyMammal.class
+* out/production/LizCapApp/asu/edu/activity/VerifySnake$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifySnake$2$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifySnake$2.class
+* out/production/LizCapApp/asu/edu/activity/VerifySnake$3$1.class
+* out/production/LizCapApp/asu/edu/activity/VerifySnake$3$2.class
+* out/production/LizCapApp/asu/edu/activity/VerifySnake$3$3.class
+* out/production/LizCapApp/asu/edu/activity/VerifySnake$3.class
+* out/production/LizCapApp/asu/edu/activity/VerifySnake$4.class
+* out/production/LizCapApp/asu/edu/activity/VerifySnake.class
+* out/production/LizCapApp/asu/edu/database/
+* out/production/LizCapApp/asu/edu/database/Area.class
+* out/production/LizCapApp/asu/edu/database/ArthropodEntry.class
+* out/production/LizCapApp/asu/edu/database/Checkdate.class
+* out/production/LizCapApp/asu/edu/database/HerpEntry.class
+* out/production/LizCapApp/asu/edu/database/JsonDBAdapter$DatabaseHelper.class
+* out/production/LizCapApp/asu/edu/database/JsonDBAdapter.class
+* out/production/LizCapApp/asu/edu/database/LizCapAppSSLSocketFactory$1.class
+* out/production/LizCapApp/asu/edu/database/LizCapAppSSLSocketFactory.class
+* out/production/LizCapApp/asu/edu/database/ProcessServerUIUpdate.class
+* out/production/LizCapApp/asu/edu/database/SyncJsonAreas.class
+* out/production/LizCapApp/asu/edu/database/SyncJsonDatabase.class
+* out/production/LizCapApp/asu/edu/dialog/
+* out/production/LizCapApp/asu/edu/dialog/DateSlider$1.class
+* out/production/LizCapApp/asu/edu/dialog/DateSlider$2.class
+* out/production/LizCapApp/asu/edu/dialog/DateSlider$3.class
+* out/production/LizCapApp/asu/edu/dialog/DateSlider$OnDateSetListener.class
+* out/production/LizCapApp/asu/edu/dialog/DateSlider.class
+* out/production/LizCapApp/asu/edu/labeler/
+* out/production/LizCapApp/asu/edu/labeler/DayDateLabeler.class
+* out/production/LizCapApp/asu/edu/labeler/DayLabeler.class
+* out/production/LizCapApp/asu/edu/labeler/HourLabeler.class
+* out/production/LizCapApp/asu/edu/labeler/Labeler.class
+* out/production/LizCapApp/asu/edu/labeler/MinuteLabeler.class
+* out/production/LizCapApp/asu/edu/labeler/MonthLabeler.class
+* out/production/LizCapApp/asu/edu/labeler/MonthYearLabeler.class
+* out/production/LizCapApp/asu/edu/labeler/TimeLabeler.class
+* out/production/LizCapApp/asu/edu/labeler/Util.class
+* out/production/LizCapApp/asu/edu/labeler/WeekLabeler$CustomTimeTextView.class
+* out/production/LizCapApp/asu/edu/labeler/WeekLabeler.class
+* out/production/LizCapApp/asu/edu/labeler/YearLabeler.class
+* out/production/LizCapApp/asu/edu/timeview/
+* out/production/LizCapApp/asu/edu/timeview/DayTimeLayoutView.class
+* out/production/LizCapApp/asu/edu/timeview/TimeLayoutView.class
+* out/production/LizCapApp/asu/edu/timeview/TimeTextView.class
+* out/production/LizCapApp/asu/edu/timeview/TimeView.class
+* out/production/SocketsObjC/
+* out/production/SocketsObjC/cst420/
+* out/production/SocketsObjC/cst420/socket/
+* out/production/SocketsObjC/cst420/socket/EchoClient.class
+* out/production/SocketsObjC/cst420/socket/ThreadedEchoServer.class
+* out/production/SyncServer/
+* out/production/SyncServer/asu/
+* out/production/SyncServer/asu/edu/
+* out/production/SyncServer/asu/edu/ThreadedEchoServer.class
+* out/production/SyncServer/edu/
+* out/production/SyncServer/edu/asu/
+* out/production/SyncServer/edu/asu/herps/
+* out/production/SyncServer/edu/asu/herps/SampleSyncClient.class
+* out/production/SyncServer/edu/asu/herps/ThreadedSyncServer.class
+* out/production/TestSocket/
+* out/production/TestSocket/cst420/
+* out/production/TestSocket/cst420/socket/
+* out/production/TestSocket/cst420/socket/EchoClient.class
+* out/production/TestSocket/cst420/socket/ThreadedEchoServer.class
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/asu/.DS_Store => app/src/main/resources/asu/.DS_Store
+* src/asu/edu/.DS_Store => app/src/main/resources/asu/edu/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

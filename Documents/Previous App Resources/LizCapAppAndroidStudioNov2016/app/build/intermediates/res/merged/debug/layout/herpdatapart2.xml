@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView02"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/herpdatatwoSVLLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10px"
+            android:text="SVL(mm)"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/herpdatatwoSVLText"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/herpdatatwoSVLLabel"
+            android:gravity="center"
+            android:inputType="phone"
+            android:maxLength="5"
+            android:nextFocusDown="@+id/herpdatatwoVTLText"
+            android:text=""
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/herpdatatwoVTLLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/herpdatatwoHistoryButton"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="10px"
+            android:text="VTL(mm)"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/herpdatatwoVTLText"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/herpdatatwoVTLLabel"
+            android:gravity="center"
+            android:inputType="phone"
+            android:maxLength="5"
+            android:nextFocusDown="@+id/herpdatatwoMassText"
+            android:text=""
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/herpdatatwoMassLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/herpdatatwoOTLText"
+            android:layout_marginTop="10px"
+            android:text="Mass(g)"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/herpdatatwoMassText"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/herpdatatwoMassLabel"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:inputType="phone"
+            android:maxLength="5"
+            android:text=""
+            android:textSize="18px"
+            android:textStyle="bold" >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/herpdatatwoOTLLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/herpdatatwoVTLText"
+            android:nextFocusDown="@+id/herpdatatwoMassText"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="10px"
+            android:text="OTL(mm)"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/herpdatatwoOTLText"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/herpdatatwoOTLLabel"
+            android:gravity="center"
+            android:inputType="phone"
+            android:maxLength="5"
+            android:text=""
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/herpdatatwoRegenLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/herpdatatwoRegenCheckBox"
+            android:layout_marginTop="15px"
+            android:layout_toRightOf="@+id/herpdatatwoRegenCheckBox"
+            android:text="Regen Tail?"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/herpdatatwoSexSpinner"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/herpdatatwoSexLabel"
+            android:entries="@array/sexarray"
+            android:prompt="@string/selectOne" >
+        </Spinner>
+
+        <Spinner
+            android:id="@+id/sp_deadHdp2"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/herpdatatwoDeadLabel"
+            android:entries="@array/liveDead" >
+        </Spinner>
+        
+        <Button
+            android:id="@+id/herpdatatwoBackButton"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/herpdatatwoSexSpinner"
+            android:layout_marginTop="10px"
+            android:text="Back"
+            android:textSize="18px" >
+        </Button>
+
+        <Button
+            android:id="@+id/herpdatatwoNextButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/herpdatatwoSexSpinner"
+            android:layout_marginTop="10px"
+            android:layout_toRightOf="@+id/herpdatatwoBackButton"
+            android:text="Next"
+            android:textSize="18px" >
+        </Button>
+
+        <CheckBox
+            android:id="@+id/herpdatatwoRegenCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/herpdatatwoOTLLabel"
+            android:checked="false" />
+
+        <CheckBox
+            android:id="@+id/herpdatatwoHatchlingCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/herpdatatwoMassLabel"
+            android:checked="false" />
+
+        <TextView
+            android:id="@+id/herpdatatwoSexLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/herpdatatwoMassText"
+            android:text="Sex"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/herpdatatwoHatchlingLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/herpdatatwoHatchlingCheckBox"
+            android:layout_alignBottom="@+id/herpdatatwoHatchlingCheckBox"
+            android:layout_toRightOf="@+id/herpdatatwoHatchlingCheckBox"
+            android:text="Hatchling?"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/herpdatatwoDeadLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/herpdatatwoMassText"
+            android:text="Dead?"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</ScrollView>

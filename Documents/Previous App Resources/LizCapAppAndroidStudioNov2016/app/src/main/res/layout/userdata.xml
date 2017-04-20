@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/userDataRecorderLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="20px"
+            android:layout_toLeftOf="@+id/userDataRecorderText"
+            android:text="Recorder"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/userDataRecorderText"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10px"
+            android:gravity="center"
+            android:inputType="textCapCharacters|textNoSuggestions"
+            android:maxLength="3"
+            android:nextFocusDown="@+id/userDataHandlerText"
+            android:text=""
+            android:textSize="18px" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/userDataHandlerLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/userDataRecorderText"
+            android:layout_marginTop="20px"
+            android:text="Handler"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/userDataHandlerText"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/userDataRecorderText"
+            android:layout_marginTop="10px"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:inputType="textCapCharacters|textNoSuggestions"
+            android:maxLength="3"
+            android:text=""
+            android:textSize="18px" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/userDataSiteLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userDataHandlerText"
+            android:layout_marginTop="30px"
+            android:text="Site"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/userDataSiteSpinner"
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/userDataHandlerText"
+            android:layout_marginTop="25px"
+            android:prompt="@string/selectOne"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </Spinner>
+
+        <TextView
+            android:id="@+id/userDataArrayLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userDataSiteSpinner"
+            android:layout_marginTop="30px"
+            android:text="Array"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <Spinner
+            android:id="@+id/userDataArraySpinner"
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/userDataSiteSpinner"
+            android:layout_marginTop="20px"
+            android:prompt="@string/selectOne"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </Spinner>
+
+        <TextView
+            android:id="@+id/tv_userDataNoCaptures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userDataArraySpinner"
+            android:layout_marginTop="30px"
+            android:text="No Captures"
+            android:textColor="@android:color/black"
+            android:textSize="18px"
+            android:textStyle="bold" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/cb_userDataNoCapture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/tv_userDataNoCaptures"
+            android:layout_alignParentRight="true"
+            android:checked="false" />
+
+        <Button
+            android:id="@+id/userDataBackButton"
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10px"
+            android:text="Back"
+            android:textSize="18px" >
+        </Button>
+
+        <Button
+            android:id="@+id/userDataNextButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10px"
+            android:layout_toRightOf="@+id/userDataBackButton"
+            android:text="Next"
+            android:textSize="18px" >
+        </Button>
+    </RelativeLayout>
+
+</ScrollView>

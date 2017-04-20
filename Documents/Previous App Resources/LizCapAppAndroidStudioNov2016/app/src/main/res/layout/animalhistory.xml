@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Site:" />
+
+    <TextView
+        android:id="@+id/tv_aniHistorySite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_aniHistorySite"
+        android:layout_alignBottom="@+id/tv_aniHistorySite"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/tv_aniHistoryArray"
+        android:text="Array:" />
+
+    <TextView
+        android:id="@+id/tv_aniHistoryArray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:text=" " />
+
+    <TableLayout
+        android:id="@+id/tl_aniHistoryMainTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="14dp" >
+
+        <TableLayout
+            android:id="@+id/tl_aniHistoryArthropodTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" >
+            
+            <TextView
+                android:id="@+id/tv_aniHistoryArthropodTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Arthropod Captures:" />
+            
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tl_aniHistoryHerpTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tl_aniHistoryArthropodTable" >
+            
+            <TextView
+                android:id="@+id/tv_aniHistoryHerpTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Herp Captures:" />
+            
+        </TableLayout>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView02"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"  >
+
+<Button android:text="Look up Species" 
+	android:id="@+id/addarthropodSpeciesButton" 
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+<!--ARAN Starts -->
+<TextView android:text="ARAN" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="40px"
+	android:layout_below="@+id/addarthropodSpeciesButton"
+	android:id="@+id/addarthropodARANLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinARANButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodARANLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toRightOf="@+id/addarthropodMinARANButton"
+	android:layout_below="@+id/addarthropodARANLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodARANText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxARANButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_toRightOf="@+id/addarthropodARANText"
+	android:layout_below="@+id/addarthropodARANLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+
+<!-- AUCH Starts -->
+<TextView android:text="AUCH" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:layout_below="@+id/addarthropodSpeciesButton"
+	android:id="@+id/addarthropodAUCHLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinAUCHButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_toLeftOf="@+id/addarthropodAUCHText"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodAUCHLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toLeftOf="@+id/addarthropodMaxAUCHButton"
+	android:layout_below="@+id/addarthropodAUCHLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodAUCHText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxAUCHButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/addarthropodAUCHLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+
+<!-- BLAT -->
+<TextView android:text="BLAT" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="40px"
+	android:layout_below="@+id/addarthropodARANText"
+	android:id="@+id/addarthropodBLATLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinBLATButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodBLATLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toRightOf="@+id/addarthropodMinBLATButton"
+	android:layout_below="@+id/addarthropodBLATLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodBLATText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxBLATButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_toRightOf="@+id/addarthropodBLATText"
+	android:layout_below="@+id/addarthropodBLATLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- CHIL Starts -->
+<TextView android:text="CHIL" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:layout_below="@+id/addarthropodAUCHText"
+	android:id="@+id/addarthropodCHILLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinCHILButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_toLeftOf="@+id/addarthropodCHILText"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodCHILLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toLeftOf="@+id/addarthropodMaxCHILButton"
+	android:layout_below="@+id/addarthropodCHILLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodCHILText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxCHILButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/addarthropodCHILLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- COLE Starts -->
+<TextView android:text="COLE" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="40px"
+	android:layout_below="@+id/addarthropodBLATText"
+	android:id="@+id/addarthropodCOLELabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinCOLEButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodCOLELabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toRightOf="@+id/addarthropodMinCOLEButton"
+	android:layout_below="@+id/addarthropodCOLELabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodCOLEText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxCOLEButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_toRightOf="@+id/addarthropodCOLEText"
+	android:layout_below="@+id/addarthropodCOLELabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- CRUS Starts -->
+<TextView android:text="CRUS" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:layout_below="@+id/addarthropodCHILText"
+	android:id="@+id/addarthropodCRUSLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinCRUSButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_toLeftOf="@+id/addarthropodCRUSText"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodCRUSLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toLeftOf="@+id/addarthropodMaxCRUSButton"
+	android:layout_below="@+id/addarthropodCRUSLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodCRUSText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxCRUSButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/addarthropodCRUSLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- DERM Starts -->
+<TextView android:text="DERM" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="40px"
+	android:layout_below="@+id/addarthropodCOLEText"
+	android:id="@+id/addarthropodDERMLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinDERMButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodDERMLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toRightOf="@+id/addarthropodMinDERMButton"
+	android:layout_below="@+id/addarthropodDERMLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodDERMText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxDERMButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_toRightOf="@+id/addarthropodDERMText"
+	android:layout_below="@+id/addarthropodDERMLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- DIEL Starts -->
+<TextView android:text="DIEL" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:layout_below="@+id/addarthropodCRUSText"
+	android:id="@+id/addarthropodDIELLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinDIELButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_toLeftOf="@+id/addarthropodDIELText"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodDIELLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toLeftOf="@+id/addarthropodMaxDIELButton"
+	android:layout_below="@+id/addarthropodDIELLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodDIELText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxDIELButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/addarthropodDIELLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- DIPT Starts -->
+<TextView android:text="DIPT" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="40px"
+	android:layout_below="@+id/addarthropodDERMText"
+	android:id="@+id/addarthropodDIPTLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinDIPTButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodDIPTLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toRightOf="@+id/addarthropodMinDIPTButton"
+	android:layout_below="@+id/addarthropodDIPTLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodDIPTText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxDIPTButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_toRightOf="@+id/addarthropodDIPTText"
+	android:layout_below="@+id/addarthropodDIPTLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- HETE Starts -->
+<TextView android:text="HETE" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:layout_below="@+id/addarthropodDIELText"
+	android:id="@+id/addarthropodHETELabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinHETEButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_toLeftOf="@+id/addarthropodHETEText"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodHETELabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toLeftOf="@+id/addarthropodMaxHETEButton"
+	android:layout_below="@+id/addarthropodHETELabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodHETEText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxHETEButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/addarthropodHETELabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- HYMA Starts -->
+<TextView android:text="HYMA" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="40px"
+	android:layout_below="@+id/addarthropodDIPTText"
+	android:id="@+id/addarthropodHYMALabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinHYMAButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodHYMALabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toRightOf="@+id/addarthropodMinHYMAButton"
+	android:layout_below="@+id/addarthropodHYMALabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodHYMAText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxHYMAButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_toRightOf="@+id/addarthropodHYMAText"
+	android:layout_below="@+id/addarthropodHYMALabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- HYMB Starts -->
+<TextView android:text="HYMB" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:layout_below="@+id/addarthropodHETEText"
+	android:id="@+id/addarthropodHYMBLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinHYMBButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_toLeftOf="@+id/addarthropodHYMBText"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodHYMBLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toLeftOf="@+id/addarthropodMaxHYMBButton"
+	android:layout_below="@+id/addarthropodHYMBLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodHYMBText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxHYMBButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/addarthropodHYMBLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- LEPI Starts -->
+<TextView android:text="LEPI" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="40px"
+	android:layout_below="@+id/addarthropodHYMAText"
+	android:id="@+id/addarthropodLEPILabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinLEPIButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodLEPILabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toRightOf="@+id/addarthropodMinLEPIButton"
+	android:layout_below="@+id/addarthropodLEPILabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodLEPIText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxLEPIButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_toRightOf="@+id/addarthropodLEPIText"
+	android:layout_below="@+id/addarthropodLEPILabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- MANT Starts -->
+<TextView android:text="MANT" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:layout_below="@+id/addarthropodHYMBText"
+	android:id="@+id/addarthropodMANTLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinMANTButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_toLeftOf="@+id/addarthropodMANTText"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodMANTLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toLeftOf="@+id/addarthropodMaxMANTButton"
+	android:layout_below="@+id/addarthropodMANTLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodMANTText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxMANTButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/addarthropodMANTLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- ORTH Starts -->
+<TextView android:text="ORTH" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="40px"
+	android:layout_below="@+id/addarthropodLEPIText"
+	android:id="@+id/addarthropodORTHLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinORTHButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodORTHLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toRightOf="@+id/addarthropodMinORTHButton"
+	android:layout_below="@+id/addarthropodORTHLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodORTHText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxORTHButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_toRightOf="@+id/addarthropodORTHText"
+	android:layout_below="@+id/addarthropodORTHLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- PSEU Starts -->
+<TextView android:text="PSEU" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:layout_below="@+id/addarthropodMANTText"
+	android:id="@+id/addarthropodPSEULabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinPSEUButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_toLeftOf="@+id/addarthropodPSEUText"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodPSEULabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toLeftOf="@+id/addarthropodMaxPSEUButton"
+	android:layout_below="@+id/addarthropodPSEULabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodPSEUText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxPSEUButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/addarthropodPSEULabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- SCOR Starts -->
+<TextView android:text="SCOR" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="40px"
+	android:layout_below="@+id/addarthropodORTHText"
+	android:id="@+id/addarthropodSCORLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinSCORButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodSCORLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toRightOf="@+id/addarthropodMinSCORButton"
+	android:layout_below="@+id/addarthropodSCORLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodSCORText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxSCORButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_toRightOf="@+id/addarthropodSCORText"
+	android:layout_below="@+id/addarthropodSCORLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- SOLI Starts -->
+<TextView android:text="SOLI" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:layout_below="@+id/addarthropodPSEUText"
+	android:id="@+id/addarthropodSOLILabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinSOLIButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_toLeftOf="@+id/addarthropodSOLIText"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodSOLILabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toLeftOf="@+id/addarthropodMaxSOLIButton"
+	android:layout_below="@+id/addarthropodSOLILabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodSOLIText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxSOLIButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/addarthropodSOLILabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- THYS Starts -->
+<TextView android:text="THYS" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="40px"
+	android:layout_below="@+id/addarthropodSCORText"
+	android:id="@+id/addarthropodTHYSLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinTHYSButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodTHYSLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toRightOf="@+id/addarthropodMinTHYSButton"
+	android:layout_below="@+id/addarthropodTHYSLabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodTHYSText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxTHYSButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_toRightOf="@+id/addarthropodTHYSText"
+	android:layout_below="@+id/addarthropodTHYSLabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<!-- UNKI Starts -->
+<TextView android:text="UNKI" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:layout_below="@+id/addarthropodSOLIText"
+	android:id="@+id/addarthropodUNKILabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="-" 
+	android:id="@+id/addarthropodMinUNKIButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_toLeftOf="@+id/addarthropodUNKIText"
+	android:layout_marginTop="3px"
+	android:layout_below="@+id/addarthropodUNKILabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<EditText android:text="0" 
+	android:layout_width="50px" 
+	android:layout_height="wrap_content"	
+	android:layout_toLeftOf="@+id/addarthropodMaxUNKIButton"
+	android:layout_below="@+id/addarthropodUNKILabel"
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/addarthropodUNKIText" >
+</EditText>
+
+<Button android:text="+" 
+	android:id="@+id/addarthropodMaxUNKIButton" 
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:layout_marginTop="3px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/addarthropodUNKILabel" 
+	android:layout_width="40px" 
+	android:layout_height="40px">
+</Button>
+
+<Button android:text="Back" 
+	android:id="@+id/addarthropodBackButton" 
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/addarthropodUNKIText" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Next" 
+	android:id="@+id/addarthropodDoneButton" 
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/addarthropodUNKIText"
+	android:layout_toRightOf="@+id/addarthropodBackButton" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+</RelativeLayout>
+</ScrollView>

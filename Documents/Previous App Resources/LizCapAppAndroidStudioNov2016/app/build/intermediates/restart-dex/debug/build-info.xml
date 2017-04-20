@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="17452583328414"
+    token="3859876480484711746"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="678" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="509" />
+    <task
+        name="verifier"
+        duration="82" />
+
+    <artifact
+        location="/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="17452583328414"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

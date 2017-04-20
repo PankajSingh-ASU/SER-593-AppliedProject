@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f03a8ac803aded8198043210971989a30b30459c">
+        <dex dex="/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e0f35f5dff3b843629994262ad3bc2fd5d700a55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fb2a8e1054ad25d66bc0fb9d252661147b4412c0">
+        <dex dex="/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_884d07926ad3716a2367569bf787a80f0e0e45e0/classes.dex" />
+    </item>
+
+</items>

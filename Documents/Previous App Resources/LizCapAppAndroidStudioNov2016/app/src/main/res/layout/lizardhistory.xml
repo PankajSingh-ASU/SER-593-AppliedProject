@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<ScrollView android:orientation="horizontal" 
+android:id="@+id/ScrollView02"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:fillViewport="true">
+
+
+<RelativeLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"  >
+
+<TextView android:text="Toe-clip:"
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:textColor="@android:color/black" 
+	android:id="@+id/lizardhistoryToeClipLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<TextView android:text=""
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:textColor="@android:color/black" 
+	android:id="@+id/lizardhistoryToeClipCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10px"
+	android:layout_toRightOf="@+id/lizardhistoryToeClipLabel">
+</TextView>
+
+<TextView android:text="Site:"
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:textColor="@android:color/black" 
+	android:id="@+id/lizardhistorySiteLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="30px"
+	android:layout_toRightOf="@+id/lizardhistoryToeClipCodeLabel">
+</TextView>
+
+<TextView android:text=""
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:textColor="@android:color/black" 
+	android:id="@+id/lizardhistorySiteCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10px"
+	android:layout_toRightOf="@+id/lizardhistorySiteLabel">
+</TextView>
+
+<TextView android:text="Species Code:"
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:textColor="@android:color/black" 
+	android:id="@+id/lizardhistorySpeciesLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="30px"
+	android:layout_toRightOf="@+id/lizardhistorySiteCodeLabel">
+</TextView>
+
+<TextView android:text=""
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:textColor="@android:color/black" 
+	android:id="@+id/lizardhistorySpeciesCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10px"
+	android:layout_toRightOf="@+id/lizardhistorySpeciesLabel">
+</TextView>
+
+<TextView android:text="        Date          Array       SVL      VTL      OTL      Mass      Sex         Notes"
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:textColor="@android:color/black" 
+	android:id="@+id/lizardhistoryDataLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20px"
+	android:layout_below="@+id/lizardhistoryToeClipLabel">
+</TextView>
+
+ <TableLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:id="@+id/lizardhistoryLayout"
+    android:layout_below="@+id/lizardhistoryDataLabel"  >
+
+   
+
+
+
+
+</TableLayout>    
+
+</RelativeLayout>
+</ScrollView>
+</HorizontalScrollView>

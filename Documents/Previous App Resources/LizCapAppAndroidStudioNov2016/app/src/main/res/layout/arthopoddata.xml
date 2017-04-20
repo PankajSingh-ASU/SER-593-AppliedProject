@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView02"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"  >
+
+
+<TextView android:text="Species Code" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="5px"
+	android:id="@+id/arthropodSpeciesCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<AutoCompleteTextView android:text="" 
+	android:id="@+id/arthropodSpeciesCodeAutoCompleteTextView"
+	android:textStyle="bold"
+	android:textSize="18px" 
+	android:completionThreshold="1"
+	android:layout_below="@id/arthropodSpeciesCodeLabel"
+	android:layout_width="120px" 
+	android:layout_height="wrap_content" 
+	android:maxLength="4" 
+	android:imeOptions="actionDone"
+	android:inputType="textCapCharacters">
+</AutoCompleteTextView>
+
+<Button android:text="Look up Code" 
+	android:id="@+id/arthropodSpeciesButton" 
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@id/arthropodSpeciesCodeLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="Fence Trap" 
+	android:id="@+id/arthropodFenceLabel"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black"
+	android:layout_marginTop="10px" 
+	android:layout_below="@id/arthropodSpeciesCodeAutoCompleteTextView" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Spinner android:id="@+id/arthropodFenceSpinner" 
+	android:layout_below="@id/arthropodFenceLabel"
+	android:prompt="@string/selectOne"
+	android:entries="@array/arthropodfencearray" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<Button android:text="Fence Map" 
+	android:id="@+id/arthropodMapButton" 
+	android:textSize="18px"
+	android:layout_alignParentRight="true"
+	android:layout_below="@id/arthropodFenceLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="Number" 
+	android:id="@+id/arthropodNumberLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/arthropodFenceSpinner" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="0" 
+	android:layout_below="@id/arthropodNumberLabel" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content"	
+	android:textSize="18px"
+	android:gravity="center"
+	android:textStyle="bold" 
+	android:maxLength="5" 
+	android:imeOptions="actionDone"
+	android:inputType="phone" 
+	android:id="@+id/arthropodNumberText" >
+</EditText>
+
+<TextView android:text="Predator?" 
+	android:id="@+id/arthropodPredatorLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/arthropodNumberLabel"
+	android:layout_alignParentRight="true" 
+	android:layout_toLeftOf="@+id/arthropodPredatorCheckBox"
+	android:layout_marginRight="50px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<CheckBox android:text="" 
+	android:id="@+id/arthropodPredatorCheckBox" 
+	android:layout_below="@id/arthropodNumberLabel"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true"
+	android:checked="false" >
+</CheckBox>
+
+<TextView android:text="Comments" 
+	android:id="@+id/arthropodNotesLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20px"
+	android:layout_below="@+id/arthropodPredatorLabel" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<EditText android:text="" 
+	android:id="@+id/arthropodNotesText" 
+	android:layout_below="@id/arthropodNotesLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="18px" 
+	android:textStyle="bold"
+	android:imeOptions="actionDone" 
+	android:inputType="text">
+</EditText>
+
+<Button android:text="Back" 
+	android:id="@+id/arthropodBackButton" 
+	android:textSize="18px"
+	android:layout_marginTop="20px"
+	android:layout_below="@id/arthropodNotesText" 
+	android:layout_width="100px" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Update" 
+	android:id="@+id/arthropodVerifyButton"
+	android:textSize="18px"
+	android:layout_marginTop="20px" 
+	android:layout_toRightOf="@+id/arthropodBackButton"
+	android:layout_below="@id/arthropodNotesText" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+</RelativeLayout>
+</ScrollView>

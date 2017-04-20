@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+
+
+<TextView android:text="" 
+	android:id="@+id/aBarLabelTwo" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="5px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Trap:"  
+	android:id="@+id/verifymammalFenceLabel"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/aBarLabelTwo"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifymammalFenceText"  
+	android:layout_marginTop="10px"
+	android:gravity="center"
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_below="@+id/aBarLabelTwo"
+	android:layout_alignParentRight="true"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/aBarLabelZero"  
+	android:layout_below="@+id/verifymammalFenceLabel"
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Species Code:"  
+	android:id="@+id/verifymammalSpeciesCodeLabel" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/aBarLabelZero"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifymammalSpeciesCodeText"  
+	android:layout_alignParentRight="true"
+	android:layout_marginTop="10px"
+	android:gravity="center"
+	android:layout_width="80px"
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/aBarLabelZero"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/aBarLabelSeven" 
+	android:layout_below="@id/verifymammalSpeciesCodeLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Mass:"  
+	android:id="@+id/verifymammalMassLabel"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/aBarLabelSeven"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifymammalMassText"
+	android:layout_marginTop="10px"
+	android:gravity="center"  
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/aBarLabelSeven"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/aBarLabelEight" 
+	android:layout_below="@id/verifymammalMassLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Sex:"  
+	android:id="@+id/verifymammalSexLabel"
+	android:layout_below="@+id/aBarLabelEight"
+	android:layout_marginTop="10px"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifymammalSexText"
+	android:layout_marginTop="10px"
+	android:gravity="center"  
+	android:layout_width="90px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/aBarLabelEight"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/aBarLabel2" 
+	android:layout_below="@id/verifymammalSexLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Dead?:"  
+	android:id="@+id/verifymammalDeadLabel"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/aBarLabel2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifymammalDeadText"
+	android:layout_marginTop="10px"
+	android:gravity="center"  
+	android:layout_width="80px"
+	android:layout_height="wrap_content" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/aBarLabel2"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/aBarLabelNine" 
+	android:layout_below="@id/verifymammalDeadLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<TextView android:text="Comments:"  
+	android:id="@+id/verifymammalCommentsLabel"
+	android:layout_below="@+id/aBarLabelNine"
+	android:layout_marginTop="10px"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/verifymammalCommentsText"  
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:layout_below="@+id/verifymammalCommentsLabel"
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/aBarLabelTen" 
+	android:layout_below="@id/verifymammalCommentsText" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="10px"
+	android:background="@android:color/black">
+</TextView>
+
+<Button android:text="Back" 
+	android:id="@+id/verifymammalBackButton" 
+	android:textSize="14px" 
+	android:layout_width="90px" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true">
+</Button>
+
+<Button android:text="Edit" 
+	android:id="@+id/verifymammalEditButton" 
+	android:textSize="14px"
+	android:layout_width="90px" 
+	android:layout_toRightOf="@+id/verifymammalBackButton"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true">
+</Button>
+
+<Button android:text="Done" 
+	android:id="@+id/verifymammalCorrectButton"
+	android:textSize="14px"
+	android:layout_toRightOf="@+id/verifymammalEditButton" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true">
+</Button>
+
+</RelativeLayout>
+</ScrollView>

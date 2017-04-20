@@ -1,0 +1,7 @@
+#Mon Mar 13 13:58:06 MST 2017
+base.0=/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e0f35f5dff3b843629994262ad3bc2fd5d700a55
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_884d07926ad3716a2367569bf787a80f0e0e45e0/classes.dex
+base.1=/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_884d07926ad3716a2367569bf787a80f0e0e45e0
+file.0=/Users/lindquis/MstProjects/LizCapApp/LizCapAppAndroidStudioNov2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e0f35f5dff3b843629994262ad3bc2fd5d700a55/classes.dex

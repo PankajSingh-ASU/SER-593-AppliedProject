@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"  >
+
+<Button android:text="Back" 
+	android:id="@+id/syncBackButton" 
+	android:textSize="18px"
+	android:layout_marginTop="20px"
+	android:layout_alignParentBottom="true"
+	android:layout_width="100px" 
+	android:layout_height="wrap_content"
+	android:onClick="backAction">
+</Button>
+
+<Button android:text="Connect" 
+	android:id="@+id/syncConnectButton"
+	android:textSize="18px"
+	android:layout_toRightOf="@+id/syncBackButton"
+	android:layout_alignParentBottom="true"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:onClick="syncDatabaseAction">
+</Button>
+<Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/spinner1" android:layout_above="@+id/syncBackButton" android:layout_alignParentLeft="true"></Spinner>
+<TextView android:id="@+id/syncLastUpdated" android:text="Last Updated: " android:layout_width="wrap_content" android:gravity="center" android:textColor="@android:color/black" android:textSize="18px" android:layout_height="wrap_content" android:textStyle="bold" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_above="@+id/spinner2"></TextView>
+<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/spinner2" android:layout_above="@+id/spinner1" android:layout_alignParentLeft="true" android:layout_marginBottom="28dp" android:layout_alignParentRight="true"></Spinner>
+
+</RelativeLayout>

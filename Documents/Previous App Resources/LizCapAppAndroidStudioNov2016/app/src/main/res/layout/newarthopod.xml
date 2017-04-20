@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="fill_parent"
+ android:layout_height="fill_parent" android:background="@android:color/white">
+
+<TextView android:text="Fence Trap" 
+	android:id="@+id/arthropodFenceLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="5px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<Spinner android:id="@+id/arthropodFenceSpinner" 
+	android:layout_below="@id/arthropodFenceLabel"
+	android:prompt="@string/selectOne"
+	android:entries="@array/arthropodfencearray" 
+	android:layout_width="120px" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<TextView android:text="Predator?" 
+	android:id="@+id/arthropodPredatorLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/arthropodNumberLabel"
+	android:layout_alignParentRight="true" 
+	android:layout_marginRight="10px"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<CheckBox android:text="" 
+	android:id="@+id/arthropodPredatorCheckBox" 
+	android:layout_below="@id/arthropodPredatorLabel"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true"
+	android:layout_marginRight="30px"
+	android:checked="false" >
+</CheckBox>
+
+<Button android:text="Add Arthropod" 
+	android:id="@+id/arthropodItemButton" 
+	android:textSize="18px" 
+	android:layout_marginTop="5px"
+	android:layout_below="@id/arthropodFenceSpinner"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+
+<TextView android:text="Species Code" 
+	android:id="@+id/arthropodHeaderLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="5px"
+	android:layout_below="@+id/arthropodItemButton" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="Number" 
+	android:id="@+id/arthropodHeaderLabel3" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true"
+	android:layout_below="@+id/arthropodItemButton" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+
+<TextView android:text="_" 
+	android:id="@+id/line" 
+	android:layout_width="fill_parent"
+	android:layout_height="3dip"
+	android:background="@android:color/black"
+	android:layout_below="@+id/arthropodHeaderLabel">
+</TextView>
+
+<ListView android:id="@+id/arthropodListView" 
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:layout_below="@+id/line"
+	android:layout_above="@+id/arthropodCommentLabel">
+ </ListView>
+ 
+<TextView android:text="Comment" 
+	android:id="@+id/arthropodCommentLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5px" 
+	android:layout_above="@+id/arthropodCommentText"
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/black">
+</TextView>
+ 
+<EditText android:text="" 
+	android:id="@+id/arthropodCommentText" 
+	android:layout_above="@+id/arthropodBackButton" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="18px" 
+	android:textStyle="bold"
+	android:imeOptions="actionDone" 
+	android:inputType="text">
+</EditText> 
+ 
+ <Button android:text="Back" 
+	android:id="@+id/arthropodBackButton" 
+	android:textSize="14px"
+	android:layout_marginTop="5px"
+	android:layout_alignParentBottom="true"
+	android:layout_width="100px" 
+	android:layout_height="wrap_content">
+</Button>
+ 
+ <Button android:text="Done" 
+	android:id="@+id/arthropodVerifyButton" 
+	android:textSize="14px"
+	android:layout_marginTop="5px" 
+	android:layout_toRightOf="@+id/arthropodBackButton" 
+	android:layout_alignParentBottom="true"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+</Button>
+</RelativeLayout>

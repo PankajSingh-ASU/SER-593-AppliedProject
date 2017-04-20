@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/herpdatathreeCommentLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:text="Comments about this animal:"
+        android:textColor="@android:color/black"
+        android:textSize="18px"
+        android:textStyle="bold" >
+    </TextView>
+
+    <Button
+        android:id="@+id/herpdatathreeBackButton"
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20px"
+        android:text="Back"
+        android:textSize="18px" >
+    </Button>
+
+    <Button
+        android:id="@+id/herpdatathreeVerifyButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20px"
+        android:layout_toRightOf="@+id/herpdatathreeBackButton"
+        android:text="Next"
+        android:textSize="18px" >
+    </Button>
+
+    <EditText
+        android:id="@+id/herpdatathreeCommentText"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/herpdatathreeCommentLabel"
+        android:layout_marginTop="20dp"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textSize="18px"
+        android:textStyle="bold" >
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

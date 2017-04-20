@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black" >
+
+<TextView android:text="Fill as many fields to narrow down the search" 
+	android:id="@+id/historyInfoLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/white">
+</TextView>
+
+<TextView android:text="" 
+	android:id="@+id/historyBarLabel" 
+	android:layout_below="@id/historyInfoLabel" 
+	android:layout_width="fill_parent" 
+	android:layout_height="2px"
+	android:layout_marginTop="5px"
+	android:background="@android:color/white">
+</TextView>
+
+<TextView android:text="Recorder"
+	android:textSize="18px"
+	android:textStyle="bold"
+	android:textColor="@android:color/white" 
+	android:id="@+id/historyRecorderLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_below="@+id/historyBarLabel"
+	android:layout_marginTop="10px">
+</TextView>
+
+<EditText android:text=""
+	android:textSize="18px"
+	android:hint="HLB"
+	android:inputType="textCapCharacters" 
+	android:id="@+id/historyRecorderText" 
+	android:layout_below="@+id/historyRecorderLabel"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:maxLength="3">
+</EditText>
+
+<TextView android:text="Handler"
+	android:textSize="18px" 
+	android:textStyle="bold"
+	android:textColor="@android:color/white" 
+	android:id="@+id/historyHandlerLabel"
+	android:layout_below="@+id/historyBarLabel"
+	android:layout_marginTop="10px" 
+	android:layout_centerHorizontal="true"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<EditText android:text=""
+	android:textSize="18px"
+	android:hint="HLB"
+	android:inputType="textCapCharacters" 
+	android:id="@+id/historyHandlerText" 
+	android:layout_below="@+id/historyHandlerLabel"
+	android:layout_centerHorizontal="true"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:maxLength="3">
+</EditText>
+
+<TextView android:text="Site" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/white"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="40px"
+	android:id="@+id/historySiteLabel" 
+	android:layout_below="@+id/historyBarLabel"
+	android:layout_alignParentRight="true" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Spinner android:id="@+id/historySiteSpinner" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_below="@id/historySiteLabel" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_alignParentRight="true">
+</Spinner>
+
+<TextView android:text="Array" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/white"
+	android:layout_marginTop="10px"
+	android:layout_marginRight="30px"
+	android:layout_alignParentRight="true"
+	android:id="@+id/historyArrayLabel" 
+	android:layout_below="@+id/historyRecorderText"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Spinner android:id="@+id/historyArraySpinner" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:layout_below="@id/historyArrayLabel"
+	android:layout_alignParentRight="true" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Spinner>
+
+<TextView android:text="Species Code" 
+	android:id="@+id/historySpeciesCodeLabel" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/white"
+	android:layout_marginTop="10px"
+	android:layout_below="@id/historyRecorderText"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<AutoCompleteTextView android:text="UTST" 
+	android:id="@+id/historySpeciesCodeAutoCompleteTextView"
+	android:textStyle="bold"
+	android:textSize="18px" 
+	android:layout_below="@id/historySpeciesCodeLabel"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:maxLength="4" 
+	android:inputType="textCapCharacters">
+</AutoCompleteTextView>
+
+<TextView android:text="02/22/11" 
+	android:id="@+id/historyDateLabel" 
+	android:textStyle="bold"
+	android:textSize="18px"
+	android:textColor="@android:color/white"
+	android:layout_marginTop="10px"
+	android:layout_centerHorizontal="true"
+	android:layout_below="@id/historyHandlerText" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</TextView>
+
+<Button android:text="Change Date" 
+	android:id="@+id/historyDateButton" 
+	android:textSize="18px"
+	android:layout_below="@id/historyDateLabel"
+	android:layout_centerHorizontal="true"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Back" 
+	android:id="@+id/historyBackButton" 
+	android:textSize="18px"
+	android:layout_marginTop="10px"
+	android:layout_below="@id/historySpeciesCodeAutoCompleteTextView" 
+	android:layout_width="100px" 
+	android:layout_height="wrap_content">
+</Button>
+
+<Button android:text="Search Results" 
+	android:id="@+id/historySearchResultsButton"
+	android:textSize="18px"
+	android:layout_marginTop="10px" 
+	android:layout_alignParentRight="true"
+	android:layout_below="@id/historyArraySpinner" 
+	android:layout_width="200px" 
+	android:layout_height="wrap_content">
+</Button>
+
+
+</RelativeLayout>	
